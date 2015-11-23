@@ -1,0 +1,414 @@
+/*   Designed by Wenjie Chen
+     2008.08.10
+     based on template: What's your solution?
+     author: luka cvrk (www.solucija.com)   */
+
+body {
+	margin: 0;
+	padding: 0;
+	font: 95% Georgia, Times, Serif;
+	color: #7e7e7e; 
+	background: #FFFFFF url(bg.gif) repeat-x;
+	line-height: 25px; 
+}
+
+a {
+	color: #33ADDB;
+	background-color: inherit;
+}
+
+a:hover {
+	color: #575757;
+	background-color: inherit;
+}
+
+h1 {
+	font: bold 2em Georgia, Times, Serif;
+	letter-spacing: 0px;
+	margin: 0;
+	padding: 0;
+}
+
+h1 a {
+	text-decoration: none;
+}
+
+h2 {
+	margin: 0; 
+	padding: 3px 0 6px 0; 
+	font: 130% Verdana, Arial, Sans-Serif;
+	font-weight: bold;
+	color: #808080; 
+	background-color: inherit;
+}
+
+h2 a {
+	color: #6AC65D;
+	background-color: inherit;
+	text-decoration: none;
+}
+
+h3 {
+	font-size: 100%;
+}
+
+p {
+	padding: 2px 0 12px;
+	margin: 0;
+}
+
+img {
+	border: 0;
+}
+
+#content {
+	margin: 0px auto; 
+	width: 1000px; 
+}
+
+.header { 
+	height: 45px; 
+	margin: 3px 0 2px 0; 
+	padding: 0px 0 17px 0px;
+	border-top: 4px solid #000;
+	background: #FFF url(headerbg.gif) repeat-x bottom left;
+	color: #202020;
+}
+
+.header h1 a {
+	color: #000000;
+	font-size: 18pt;
+	background-color: inherit;
+}
+	
+.searchform {
+	float: right;
+	padding: 2px 5px 0 0;
+}
+
+.subheader {
+	clear: both;
+	height: 23px;
+	margin: 0 0 10px 0;	
+	font-size: 105%;
+}
+
+.subheader_left {
+	line-height: 28px;
+	width: 213px;
+	background: #33ADDB url(hmleftbg.gif) repeat-x;
+	color: #FFFFFF;
+	padding: 0 5px 0 5px;
+	text-align : center;
+}
+
+.subheader_left a {
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: inherit;
+}
+
+.subheader_right {
+	background: #F6F6F6 url(hmrightbg.gif) repeat-x;
+	color: #626262;
+	line-height: 28px;
+	
+	float: right;
+	width: 774px;
+	
+}
+
+.subheader_right a {
+	margin: 0px 2px 0 0;
+	padding: 5px 18px 6px 18px;
+	color: #626262;
+	background: inherit;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.subheader_right a:hover {
+	background: #33ADDB url(hmleftbg.gif) repeat-x;
+	border-top: 1px solid #1A83AC;
+	color: #FFFFFF;
+}
+
+.left {
+	float: left;
+	padding: 10px 0 0 5px;
+	width: 210px;
+	text-align : center;
+	font-size: 90%;
+}
+
+.left ul{
+	text-align : left;	
+	margin: 10px 0 0 0;
+	padding: 0px 0 0 15px;
+}
+
+.left_comments {
+	font-size: 85%;
+}
+
+.left h2 {
+	padding: 10px 0 5px 0px;
+	background: url(pixel.gif) repeat-x bottom;
+}
+
+.left h2 a {
+	color: #0000ff; 
+}
+
+.left h2 a:hover {
+	background: #33ADDB url(hmleftbg.gif) repeat-x;
+	border-top: 1px solid #1A83AC;
+	color: #FFFFFF;
+}
+
+.left_currentpage{
+	background: #ccffff;
+}
+
+.right {
+	float: right;
+	width: 760px;
+	margin: 0 0 0 0; 
+	padding: 10px 0 0 15px; 
+	color: #000;
+	background-color: #FFFFFF; 
+	border-left: 1px solid #e6e6e6;
+}
+
+.right ul{
+	text-align : left;	
+	margin: 0px 0 0 0;
+	padding: 2px 0 5px 35px;
+}
+
+.right h3 {
+	font: helvetica arial;
+}
+
+.bottomline {
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.right h4 {
+	font: 85% helvetica arial;
+	font-weight : normal;
+	color: #7e7e7e;
+}
+
+.comments {
+	font: 85% helvetica arial;
+	font-weight : normal;
+	color: #7e7e7e;
+	padding-bottom: 5px;
+	padding-top: 2px;
+}
+
+.topline {
+	border-top: 1px solid #e6e6e6;
+}
+
+a.info {
+	font: bold 1.3em Arial, Sans-Serif; 
+	text-decoration:none; 
+	position:relative;
+	color: #3300cc;
+}
+
+a.info span {
+	display:none;
+}
+
+a.info:hover {
+	cursor:default;
+}
+
+a.info:hover .infobox {
+	font-weight: normal; 
+	display:block; 
+	position:absolute; 
+	top:20px;; 
+	left:0;; 
+	width:205px; 
+	height:70px; 
+	border: 1px solid #ccc; 
+	background:#f4f4f4 url(question.gif) no-repeat bottom right; 
+	color:#000; 
+	text-align:left; 
+	font-size:0.7em; 
+	padding-left:10px; 
+	padding-top:10px;
+}
+
+.line {
+	height: 2px;
+	margin: 10px 0 10px 0;
+}
+
+.right_left {
+	float: left;
+	width: 250px;
+	padding: 0px 13px 5px 13px;
+	/*background: #f2f2f2 url(corner.gif) no-repeat bottom right;
+	color: #626262;*/
+}
+
+.right_right {
+	float: right;
+	width: 250px;
+	padding: 0px 13px 5px 13px;
+	/*background: #f2f2f2 url(corner.gif) no-repeat bottom right;
+	color: #626262;*/
+}
+
+.content_left {
+	float: left;
+	width: 400px;
+	padding: 5px 0px 5px 0px;
+	/*background: #f2f2f2 url(corner.gif) no-repeat bottom right;
+	color: #626262;*/
+}
+
+.content_left h2 {
+	color: #003300;
+	text-transform : none;
+}
+
+.content_left h3 {
+	border-bottom: none;
+}
+
+.content_right {
+	float: right;
+	width: 100px;
+	padding: 13px;
+	/*background: #f2f2f2 url(corner.gif) no-repeat bottom right;
+	color: #626262;*/
+}
+
+.people_left {
+	float: left;
+	width: 150px;
+	padding: 0px 13px 0px 13px;
+}
+
+.people_left img {
+	border: 0;
+	height: 90;
+	width: 120;
+}
+
+.people_right {
+	float: right;
+	width: 350px;
+	padding: 15px 13px 0px 13px;
+}
+
+.people_right h2 {
+	color: #003300;
+	text-transform : none;
+}
+
+.people_right h2 a {
+	color: #0000ff;
+	background-color: inherit;
+	text-decoration: none;
+}
+
+.people_right h3 {
+	font: 85% helvetica arial;
+	font-weight : normal;
+	padding: 0px 0px 0px 0px;
+	margin: 0 0 0px 0;
+	border-bottom: 0px solid #e6e6e6;
+}
+
+.footer { 
+	clear: both; 
+	color: #999999; 
+	background-color: #FFFFFF;
+	padding: 10px 0 10px 0; 
+	border-top: 1px solid #e6e6e6; 
+	text-align: center;  
+	line-height: 13px;
+	font-size: 85%;
+}
+
+.footer a { 
+	text-decoration: underline; 
+}
+
+form.search {
+	padding: 0; 
+	margin: 0; 
+}
+
+input.text { 
+	margin: 0; 
+	width: 95px;
+	border: 1px solid #ccc; 
+	background: #FFF;
+	color: #000; 
+}
+
+input.text:hover { 
+	border: 1px solid #808080; 
+}
+
+input.searchbutton { 
+	margin: 0; 
+	font-size: 100%; 
+	font-family: Arial, Sans-serif; 
+	border: none; 
+	background: #FFFFFF; 
+	color: #808080; 
+	padding: 1px; 
+	font-weight: bold; 
+}
+
+.date { 
+	color: #ccc; 
+	background: #FFFFFF;
+	text-align: right; 
+	margin: 0px 0 3px 0; 
+	padding: 0; 
+	border-top: 1px solid #e6e6e6;
+}
+
+.lilabmember {
+	display: inline;
+	width: 150px;
+	text-align: center;
+	height: 220px;
+	float: left;
+	margin: 10px;
+	padding: 0px;
+}
+
+.conf_num {
+	color: #000498;
+	font-weight: bold;
+}
+	
+.jnl_num {
+	color: #FF0000;
+	font-weight: bold;
+}
+
+.pub_left {
+	float: left;
+	padding: 0px 0px 0px 0px;
+	margin: 0;
+}
+
+.pub_right {
+	float: right;
+	width: 530px;
+	padding: 4px 0px 0px 0px;
+	margin: 0;
+}
