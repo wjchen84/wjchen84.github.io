@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.24)  24 NOV 2015 15:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.23)  5 JAN 2016 00:28
 entering extended mode
 **CV-CWJ.tex
 (CV-CWJ.tex
@@ -246,7 +246,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 [1
 
-{C:/Users/Chin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{C:/Users/Wenjie&Su/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Overfull \hbox (21.87859pt too wide) in paragraph at lines 189--204
 \OT1/cmr/m/n/10 IEEE Trans-ac-tions on Robotics (T-RO), IEEE Trans-ac-tions on 
 In-dus-trial Elec-tron-ics (TIE), IEEE/ASME
@@ -293,7 +293,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 547.
  ) 
 Here is how much of TeX's memory you used:
  5302 strings out of 493673
- 78276 string characters out of 3141532
+ 78276 string characters out of 3141517
  166731 words of memory out of 3000000
  8634 multiletter control sequences out of 15000+200000
  7058 words of font info for 26 fonts, out of 3000000 for 9000
@@ -307,7 +307,7 @@ am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Fil
 es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on CV-CWJ.pdf (7 pages, 139296 bytes).
+Output written on CV-CWJ.pdf (7 pages, 139263 bytes).
 PDF statistics:
  74 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
