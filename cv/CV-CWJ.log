@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.23)  1 FEB 2016 23:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.23)  23 MAR 2016 00:31
 entering extended mode
 **CV-CWJ.tex
 (CV-CWJ.tex
@@ -243,53 +243,65 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 32.
-
-[1
-
-{C:/Users/Wenjie&Su/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Overfull \hbox (21.87859pt too wide) in paragraph at lines 189--204
-\OT1/cmr/m/n/10 IEEE Trans-ac-tions on Robotics (T-RO), IEEE Trans-ac-tions on 
-In-dus-trial Elec-tron-ics (TIE), IEEE/ASME
- []
-
-
-Overfull \hbox (6.32408pt too wide) in paragraph at lines 189--204
-\OT1/cmr/m/n/10 Trans-ac-tions on Mecha-tron-ics (TMECH), IEEE Trans-ac-tions o
-n Con-trol Sys-tems Tech-nol-ogy (TCST),
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 251.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 87.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 251.
- [2] [3]
-Overfull \hbox (48.2261pt too wide) in paragraph at lines 389--390
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 87.
+ [1
+
+{C:/Users/Wenjie&Su/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Overfull \hbox (21.87859pt too wide) in paragraph at lines 195--210
+\OT1/cmr/m/n/10 IEEE Trans-ac-tions on Robotics (T-RO), IEEE Trans-ac-tions on 
+In-dus-trial Elec-tron-ics (TIE), IEEE/ASME
+ []
+
+
+Overfull \hbox (6.32408pt too wide) in paragraph at lines 195--210
+\OT1/cmr/m/n/10 Trans-ac-tions on Mecha-tron-ics (TMECH), IEEE Trans-ac-tions o
+n Con-trol Sys-tems Tech-nol-ogy (TCST),
+ []
+
+[2] [3]
+Overfull \hbox (48.2261pt too wide) in paragraph at lines 395--396
 \OT1/cmr/m/it/10 nol-ogy, IEEE Trans-ac-tions on\OT1/cmr/m/n/10 , vol. 22, no. 
 4, pp. 1350--1361, July 2014; doi: 10.1109/TCST.2013.2279652 
  []
 
+[4]
 \gdef\etaremune@i{7}
-[4] [5]
-\gdef\etaremune@ii{20}
-[6]
-Overfull \hbox (2.20956pt too wide) in paragraph at lines 449--450
+
+Overfull \hbox (4.09114pt too wide) in paragraph at lines 410--411
+\OT1/cmr/m/n/10 "Teach In-dus-trial Robots Peg-Hole-Insertion by Hu-man Demon-s
+tra-tion," \OT1/cmr/m/it/10 the 2016 IEEE/ASME
+ []
+
+
+Overfull \hbox (1.86154pt too wide) in paragraph at lines 410--411
+\OT1/cmr/m/it/10 In-ter-na-tional Con-fer-ence on Ad-vanced In-tel-li-gent Mech
+a-tron-ics (AIM)\OT1/cmr/m/n/10 , Banff, Al-berta, Canada,
+ []
+
+[5] [6]
+\gdef\etaremune@ii{26}
+
+Overfull \hbox (2.20956pt too wide) in paragraph at lines 461--462
 \OT1/cmr/m/n/10 oskele-ton con-trol (NSF EFRI-M3C 1137267)", \OT1/cmr/m/it/10 P
 oster pre-sen-ta-tion (group work), NSF EFRI Grantees
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 544.
+(Font)              <8> on input line 556.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 544.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 547.
+(Font)              <6> on input line 556.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 559.
 [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 547.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 547.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 547.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 547.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 559.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 559.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 559.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 559.
  ) 
 Here is how much of TeX's memory you used:
  5302 strings out of 493673
@@ -307,7 +319,7 @@ am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Fil
 es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on CV-CWJ.pdf (7 pages, 139242 bytes).
+Output written on CV-CWJ.pdf (7 pages, 141013 bytes).
 PDF statistics:
  74 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
