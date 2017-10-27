@@ -1,4 +1,4 @@
-cv/*.gz
+cv/*.gz*
 cv/*.log
 cv/*.pdf
 old/**
