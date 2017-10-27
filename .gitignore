@@ -1,0 +1,4 @@
+cv/*.gz
+cv/*.log
+cv/*.pdf
+old/**
