@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2017.11.5)  26 NOV 2017 16:32
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2017.11.5)  13 FEB 2018 01:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -986,6 +986,17 @@ n Con-trol Sys-tems Tech-nol-ogy (TCST),
  []
 
 [2]
+Overfull \hbox (35.68799pt too wide) in paragraph at lines 401--402
+\OT1/cmr/m/it/10 JP-6174654 (Granted), US-15/281084 (Pend-ing), CN-201610811511
+.0 (Pend-ing), DE-102016012065.7
+ []
+
+
+Overfull \hbox (38.00917pt too wide) in paragraph at lines 402--403
+\OT1/cmr/m/it/10 JP-6208724 (Granted), US-15/259118 (Pend-ing), CN-201610814842
+.X (Pend-ing), DE-102016116404.6
+ []
+
 \gdef\etaremune@i{9}
 
 Overfull \hbox (48.2261pt too wide) in paragraph at lines 420--421
@@ -1039,7 +1050,7 @@ l/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu4e.pfb></usr/local/texl
 ive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu65.pfb></usr/local/texlive/20
 12/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu67.pfb></usr/local/texlive/2012/tex
 mf-dist/fonts/type1/arphic/gbsnu/gbsnu96.pfb>
-Output written on CV-CWJ.pdf (7 pages, 139104 bytes).
+Output written on CV-CWJ.pdf (7 pages, 139277 bytes).
 PDF statistics:
  96 PDF objects out of 1000 (max. 8388607)
  70 compressed objects within 1 object stream

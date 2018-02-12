@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2017.11.5)  26 NOV 2017 16:32
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2017.11.5)  13 FEB 2018 01:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -992,21 +992,21 @@ LaTeX Font Warning: Font shape `C70/gbsn/m/it' undefined
 (Font)              using `C70/gbsn/m/n' instead on input line 398.
 
 
-Overfull \hbox (36.71356pt too wide) in paragraph at lines 398--399
-\OT1/cmr/m/it/10 JP-2015203902 (\C70/gbsn/m/n/10/5d ò[][] \C70/gbsn/m/it/10/62 
-y[][] \C70/gbsn/m/n/10/51 Æ[][]\OT1/cmr/m/it/10 ), US-15/281084 (\C70/gbsn/m/it
-/10/5b ¡[][] \C70/gbsn/m/it/10/62 y \C70/gbsn/m/it/10/4e -\OT1/cmr/m/it/10 ), C
-N-201610811511.0 (\C70/gbsn/m/it/10/5b ¡ \C70/gbsn/m/it/10/62 y \C70/gbsn/m/it/
-10/4e -\OT1/cmr/m/it/10 ), DE-102016012065.7
+Overfull \hbox (21.38031pt too wide) in paragraph at lines 398--399
+\OT1/cmr/m/it/10 JP-6174654 (\C70/gbsn/m/n/10/5d ò[][] \C70/gbsn/bx/n/10/63 ˆ[]
+[] \C70/gbsn/bx/n/10/67 C[][]\OT1/cmr/m/it/10 ), US-15/281084 (\C70/gbsn/m/it/1
+0/5b ¡[][] \C70/gbsn/m/it/10/62 y \C70/gbsn/m/it/10/4e -\OT1/cmr/m/it/10 ), CN-
+201610811511.0 (\C70/gbsn/m/it/10/5b ¡ \C70/gbsn/m/it/10/62 y \C70/gbsn/m/it/10
+/4e -\OT1/cmr/m/it/10 ), DE-102016012065.7
  []
 
 
-Overfull \hbox (38.73476pt too wide) in paragraph at lines 399--400
-\OT1/cmr/m/it/10 JP-2015177471 (\C70/gbsn/m/n/10/5d ò[][] \C70/gbsn/m/it/10/62 
-y[][] \C70/gbsn/m/n/10/51 Æ[][]\OT1/cmr/m/it/10 ), US-15/259118 (\C70/gbsn/m/it
-/10/5b ¡ \C70/gbsn/m/it/10/62 y \C70/gbsn/m/it/10/4e -\OT1/cmr/m/it/10 ), CN-20
-1610814842.X (\C70/gbsn/m/it/10/5b ¡ \C70/gbsn/m/it/10/62 y \C70/gbsn/m/it/10/4
-e -\OT1/cmr/m/it/10 ), DE-102016116404.6
+Overfull \hbox (23.4015pt too wide) in paragraph at lines 399--400
+\OT1/cmr/m/it/10 JP-6208724 (\C70/gbsn/m/n/10/5d ò[][] \C70/gbsn/bx/n/10/63 ˆ[]
+[] \C70/gbsn/bx/n/10/67 C[][]\OT1/cmr/m/it/10 ), US-15/259118 (\C70/gbsn/m/it/1
+0/5b ¡ \C70/gbsn/m/it/10/62 y \C70/gbsn/m/it/10/4e -\OT1/cmr/m/it/10 ), CN-2016
+10814842.X (\C70/gbsn/m/it/10/5b ¡ \C70/gbsn/m/it/10/62 y \C70/gbsn/m/it/10/4e 
+-\OT1/cmr/m/it/10 ), DE-102016116404.6
  []
 
 [2]
@@ -1048,7 +1048,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 580.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 580.
-[6]
+[6] [7]
 
 LaTeX Warning: Etaremune labels have changed.
                Rerun to get them right.
@@ -1063,13 +1063,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 583.
  ) 
 Here is how much of TeX's memory you used:
- 13634 strings out of 493488
- 213133 string characters out of 3141326
+ 13633 strings out of 493488
+ 213117 string characters out of 3141326
  280182 words of memory out of 3000000
- 16533 multiletter control sequences out of 15000+200000
+ 16532 multiletter control sequences out of 15000+200000
  26885 words of font info for 97 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 40i,11n,43p,937b,1230s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,11n,43p,937b,1231s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
@@ -1141,10 +1141,10 @@ arphic/gbsnu/gbsnu90.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic
 /local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu99.pfb></usr/local
 /texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu9a.pfb></usr/local/texli
 ve/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnuff.pfb>
-Output written on CV-CWJ_CN.pdf (6 pages, 411606 bytes).
+Output written on CV-CWJ_CN.pdf (7 pages, 411157 bytes).
 PDF statistics:
- 412 PDF objects out of 1000 (max. 8388607)
- 257 compressed objects within 3 object streams
- 7 named destinations out of 1000 (max. 500000)
+ 418 PDF objects out of 1000 (max. 8388607)
+ 262 compressed objects within 3 object streams
+ 8 named destinations out of 1000 (max. 500000)
  273 words of extra memory for PDF output out of 10000 (max. 10000000)
 
