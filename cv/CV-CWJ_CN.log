@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2017.11.5)  21 MAR 2018 11:50
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2017.11.5)  12 MAY 2018 00:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -975,83 +975,48 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 84.
  [1
 
-{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (21.87859pt too wide) in paragraph at lines 204--219
-\OT1/cmr/m/n/10 IEEE Trans-ac-tions on Robotics (T-RO), IEEE Trans-ac-tions on 
-In-dus-trial Elec-tron-ics (TIE), IEEE/ASME
- []
-
-
-Overfull \hbox (6.32408pt too wide) in paragraph at lines 204--219
-\OT1/cmr/m/n/10 Trans-ac-tions on Mecha-tron-ics (TMECH), IEEE Trans-ac-tions o
-n Con-trol Sys-tems Tech-nol-ogy (TCST),
- []
-
+{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
 
 LaTeX Font Warning: Font shape `C70/gbsn/m/it' undefined
-(Font)              using `C70/gbsn/m/n' instead on input line 398.
+(Font)              using `C70/gbsn/m/n' instead on input line 392.
 
-[2]
-Overfull \hbox (35.51361pt too wide) in paragraph at lines 400--401
-\OT1/cmr/m/it/10 JP-2016225207 (\C70/gbsn/m/it/10/5b ¡ \C70/gbsn/m/it/10/62 y \
-C70/gbsn/m/it/10/4e -\OT1/cmr/m/it/10 ), US-15/405190 (\C70/gbsn/m/it/10/5b ¡ \
-C70/gbsn/m/it/10/62 y \C70/gbsn/m/it/10/4e -\OT1/cmr/m/it/10 ), CN-201710025546
-.6 (\C70/gbsn/m/it/10/5b ¡ \C70/gbsn/m/it/10/62 y \C70/gbsn/m/it/10/4e -\OT1/cm
-r/m/it/10 ), DE-102017000063.8
- []
-
-
-Overfull \hbox (35.51361pt too wide) in paragraph at lines 401--402
-\OT1/cmr/m/it/10 JP-2016159895 (\C70/gbsn/m/it/10/5b ¡ \C70/gbsn/m/it/10/62 y \
-C70/gbsn/m/it/10/4e -\OT1/cmr/m/it/10 ), US-15/676503 (\C70/gbsn/m/it/10/5b ¡ \
-C70/gbsn/m/it/10/62 y \C70/gbsn/m/it/10/4e -\OT1/cmr/m/it/10 ), CN-201710687596
-.0 (\C70/gbsn/m/it/10/5b ¡ \C70/gbsn/m/it/10/62 y \C70/gbsn/m/it/10/4e -\OT1/cm
-r/m/it/10 ), DE-102017118276.4
- []
-
-\gdef\etaremune@i{9}
-
-Overfull \hbox (48.2261pt too wide) in paragraph at lines 417--418
-\OT1/cmr/m/it/10 nol-ogy, IEEE Trans-ac-tions on\OT1/cmr/m/n/10 , vol. 22, no. 
-4, pp. 1350--1361, July 2014; doi: 10.1109/TCST.2013.2279652 
- []
-
+\gdef\etaremune@i{13}
 [3]
 \gdef\etaremune@ii{7}
 [4] [5]
 \gdef\etaremune@iii{26}
-
-Overfull \hbox (2.20956pt too wide) in paragraph at lines 486--487
+[6]
+Overfull \hbox (2.20956pt too wide) in paragraph at lines 484--485
 \OT1/cmr/m/n/10 oskele-ton con-trol (NSF EFRI-M3C 1137267)", \OT1/cmr/m/it/10 P
 oster pre-sen-ta-tion (group work), NSF EFRI Grantees
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 581.
+(Font)              <8> on input line 579.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 581.
-[6] [7]
+(Font)              <6> on input line 579.
+[7]
 
 LaTeX Warning: Etaremune labels have changed.
                Rerun to get them right.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 584.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 584.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 584.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 584.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 582.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 582.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 582.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 582.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 584.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 582.
  ) 
 Here is how much of TeX's memory you used:
- 13644 strings out of 493488
- 213285 string characters out of 3141326
+ 13684 strings out of 493488
+ 213964 string characters out of 3141326
  281182 words of memory out of 3000000
- 16542 multiletter control sequences out of 15000+200000
+ 16576 multiletter control sequences out of 15000+200000
  26885 words of font info for 97 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 40i,11n,43p,937b,1231s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,11n,43p,937b,1219s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
@@ -1123,7 +1088,7 @@ arphic/gbsnu/gbsnu90.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic
 /local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu99.pfb></usr/local
 /texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu9a.pfb></usr/local/texli
 ve/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnuff.pfb>
-Output written on CV-CWJ_CN.pdf (7 pages, 413557 bytes).
+Output written on CV-CWJ_CN.pdf (7 pages, 417766 bytes).
 PDF statistics:
  418 PDF objects out of 1000 (max. 8388607)
  262 compressed objects within 3 object streams
