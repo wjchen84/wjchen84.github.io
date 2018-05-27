@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2017.11.5)  22 MAY 2018 22:57
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2017.11.5)  27 MAY 2018 17:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1007,7 +1007,7 @@ Here is how much of TeX's memory you used:
  15580 multiletter control sequences out of 15000+200000
  8244 words of font info for 30 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 40i,12n,43p,934b,1123s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,11n,43p,934b,1123s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
@@ -1020,7 +1020,7 @@ l/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu4e.pfb></usr/local/texl
 ive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu65.pfb></usr/local/texlive/20
 12/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu67.pfb></usr/local/texlive/2012/tex
 mf-dist/fonts/type1/arphic/gbsnu/gbsnu96.pfb>
-Output written on CV-CWJ.pdf (7 pages, 139772 bytes).
+Output written on CV-CWJ.pdf (7 pages, 139805 bytes).
 PDF statistics:
  96 PDF objects out of 1000 (max. 8388607)
  70 compressed objects within 1 object stream
