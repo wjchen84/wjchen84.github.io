@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2018.8.7)  9 FEB 2019 20:18
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2018.8.7)  15 MAY 2019 20:33
 entering extended mode
 **CV-CWJ_CN.tex
 (C:\Users\wenjie.chen\Dropbox\Documents\Website\cv\CV-CWJ_CN.tex
@@ -950,44 +950,44 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 {C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}] [2]
 
 LaTeX Font Warning: Font shape `C70/gbsn/m/it' undefined
-(Font)              using `C70/gbsn/m/n' instead on input line 404.
+(Font)              using `C70/gbsn/m/n' instead on input line 406.
 
 [3]
-\gdef\etaremune@i{15}
+\gdef\etaremune@i{16}
 \gdef\etaremune@ii{7}
 [4] [5] [6]
 \gdef\etaremune@iii{26}
 
-Overfull \hbox (2.20956pt too wide) in paragraph at lines 499--500
+Overfull \hbox (2.20956pt too wide) in paragraph at lines 500--501
 \OT1/cmr/m/n/10 oskele-ton con-trol (NS-F EFRI-M3C 1137267)", \OT1/cmr/m/it/10 
 Poster p-re-sen-ta-tion (group work), NS-F E-FRI Grantees
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 594.
+(Font)              <8> on input line 595.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 594.
+(Font)              <6> on input line 595.
 [7]
 
 LaTeX Warning: Etaremune labels have changed.
                Rerun to get them right.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 597.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 597.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 597.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 597.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 598.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 598.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 598.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 598.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 13550 strings out of 495354
- 207515 string characters out of 3183860
+ 13558 strings out of 495354
+ 207622 string characters out of 3183860
  291366 words of memory out of 3000000
- 16293 multiletter control sequences out of 15000+200000
+ 16301 multiletter control sequences out of 15000+200000
  27858 words of font info for 102 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 40i,12n,43p,821b,1247s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,12n,43p,821b,1245s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/CTEX/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmbx12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmr10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/CT
@@ -1043,7 +1043,7 @@ fonts/type1/arphic/gbsnu/gbsnu97.pfb><C:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/g
 bsnu98.pfb><C:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/gbsnu99.pfb><C:/CTEX/MiKTeX
 /fonts/type1/arphic/gbsnu/gbsnu9a.pfb><C:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/
 gbsnu9c.pfb><C:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/gbsnuff.pfb>
-Output written on CV-CWJ_CN.pdf (7 pages, 518112 bytes).
+Output written on CV-CWJ_CN.pdf (7 pages, 521112 bytes).
 PDF statistics:
  439 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
