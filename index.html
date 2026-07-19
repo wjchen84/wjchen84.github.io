@@ -1,495 +1,181 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-	<meta name="Description" content="Wenjie Chen Homepage" />
-	<meta name="Keywords" content="mechanical, control, systems" />
-	<meta http-equiv="Content-Type" content="text/html; charset= UTF-8" />
-	<meta name="Distribution" content="Global" />
-	<meta name="Author" content="Wenjie Chen" />
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<title>Chen, Wenjie</title>
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Wenjie Chen — Professional profile in robotics and mechatronics." />
+    <meta name="theme-color" content="#0a0d12" />
+    <title>陈文杰 — 个人简介</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body id="top">
+    <div class="page-grid" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="mark" href="#top" aria-label="Wenjie Chen home"><strong>Wenjie Chen</strong><span>陈文杰</span></a>
+      <nav aria-label="Primary navigation">
+        <a data-lang="zh" href="#path">经历</a><a data-lang="en" href="#path" hidden>Path</a>
+        <a data-lang="zh" href="#focus">领域</a><a data-lang="en" href="#focus" hidden>Focus</a>
+        <a data-lang="zh" href="#impact">成果</a><a data-lang="en" href="#impact" hidden>Impact</a>
+        <a data-lang="zh" href="#honors">荣誉</a><a data-lang="en" href="#honors" hidden>Honors</a>
+        <a data-lang="zh" href="#media">报道</a><a data-lang="en" href="#media" hidden>Media</a>
+      </nav>
+      <div class="language-switch" role="group" aria-label="Language">
+        <button type="button" data-set-language="zh" aria-pressed="true">中</button>
+        <button type="button" data-set-language="en" aria-pressed="false">EN</button>
+      </div>
+    </header>
 
-<script type="text/javascript">
+    <main>
+      <section class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="kicker"><span></span> PERSONAL PROFILE</p>
+          <p class="eyebrow" data-lang="zh">陈文杰博士 / Wenjie Chen, Ph.D.</p>
+          <p class="eyebrow" data-lang="en" hidden>Wenjie Chen, Ph.D.</p>
+          <h1 id="hero-title" data-lang="zh">机器人技术<br />与产业突破</h1>
+          <h1 data-lang="en" hidden>Robotics Technology<br />&amp; Industrial Breakthroughs</h1>
+          <p class="hero-summary" data-lang="zh">伯克利机械工程博士，现任美的集团机器人研究所所长、高端重载机器人全国重点实验室（美的蓝橙实验室）常务副主任，专注于机器人核心技术的自主化、高端化与智能化。</p>
+          <p class="hero-summary" data-lang="en" hidden>Ph.D. in Mechanical Engineering, UC Berkeley. Director of Robotics Institute at Midea Group and Executive Deputy Director of State Key Laboratory of High-End Heavy-Load Robots, focused on independent, advanced, and intelligent robotics technologies.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" data-lang="zh" href="#path">查看经历与教育 <span>↓</span></a>
+            <a class="button button-primary" data-lang="en" href="#path" hidden>Career & Education <span>↓</span></a>
+            <a class="button button-quiet" data-lang="zh" href="CV-Wenjie-Chen-CN.pdf" download>下载中文 CV <span>↓</span></a>
+            <a class="button button-quiet" data-lang="en" href="CV-Wenjie-Chen-EN.pdf" download hidden>Download English CV <span>↓</span></a>
+          </div>
+        </div>
+        <figure class="hero-visual">
+          <img src="portrait-wenjie-chen-headshot-v3.jpg" alt="Wenjie Chen" />
+          <figcaption class="photo-label">PROFILE / 01<br /><span>INTEGRATED MECHATRONICS</span></figcaption>
+          <div class="diagram" aria-label="Robotics system diagram">
+            <i class="orbit orbit-one"></i><i class="orbit orbit-two"></i><i class="orbit orbit-three"></i>
+            <span class="diagram-node node-core">Mecha-<br />tronics</span>
+            <span class="diagram-node node-sense">Sensing</span>
+            <span class="diagram-node node-drive">Drive</span>
+            <span class="diagram-node node-safety">Safety</span>
+            <span class="diagram-node node-ctrl">Control</span>
+          </div>
+        </figure>
+      </section>
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-29748924-1']);
-  _gaq.push(['_trackPageview']);
+      <section class="stats section-shell" aria-label="Selected achievements">
+        <div class="stat"><b>75</b><p data-lang="zh">国际期刊与高水平会议论文</p><p data-lang="en" hidden>High-level journal & conference papers</p></div>
+        <div class="stat"><b>136<span> / 63</span></b><p data-lang="zh">申请专利 / 已授权专利</p><p data-lang="en" hidden>Patents filed / granted</p></div>
+        <div class="stat"><b>2</b><p data-lang="zh">日内瓦国际发明展金奖<br />均排名第 1</p><p data-lang="en" hidden>Geneva Invention Exhibition Gold Prizes<br />both ranked No. 1</p></div>
+        <div class="stat"><b>近100</b><p data-lang="zh">全球化产业与学术复合型团队</p><p data-lang="en" hidden>Global industry-academic team built & led</p></div>
+      </section>
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+      <section id="path" class="path section-shell section-spaced" aria-labelledby="path-title">
+        <div class="path-title">
+          <p class="section-index">01 / PATH</p>
+          <h2 id="path-title" data-lang="zh">职业经历与<br />教育背景</h2>
+          <h2 data-lang="en" hidden>Career &amp;<br />Education</h2>
+        </div>
+        <ol class="timeline">
+          <li><p>2019 — NOW</p><div><h3 data-lang="zh">美的集团 / 高端重载机器人全国重点实验室</h3><h3 data-lang="en" hidden>Midea Group / State Key Laboratory of High-End Heavy-Load Robots</h3><span data-lang="zh">机器人研究所所长（2019—）；实验室常务副主任（2022—）</span><span data-lang="en" hidden>Director, Robotics Institute (2019–); Executive Deputy Director, State Key Laboratory (2022–)</span></div></li>
+          <li><p>2018 — 2019</p><div><h3 data-lang="zh">思核机器人</h3><h3 data-lang="en" hidden>Sihe Robotics</h3><span data-lang="zh">CTO、合伙人；聚焦工业 AI 与机器人产品落地</span><span data-lang="en" hidden>CTO & Partner; industrial AI and robotics product deployment</span></div></li>
+          <li><p>2013 — 2018</p><div><h3 data-lang="zh">FANUC 株式会社</h3><h3 data-lang="en" hidden>FANUC Corporation</h3><span data-lang="zh">主任研究员，学习机器人与下一代机器人软件研究技术负责人</span><span data-lang="en" hidden>Principal Engineer and Technical Leader, Learning Robots and Next-Generation Robotics Software</span></div></li>
+          <li><p>2012 — 2013</p><div><h3 data-lang="zh">加州大学伯克利分校</h3><h3 data-lang="en" hidden>University of California, Berkeley</h3><span data-lang="zh">机械系统控制实验室博士后研究员</span><span data-lang="en" hidden>Postdoctoral Researcher, Mechanical Systems Control Laboratory</span></div></li>
+        </ol>
+        <div class="academic-strip">
+          <p data-lang="zh">学术兼职</p><p data-lang="en" hidden>ACADEMIC APPOINTMENTS</p>
+          <div><b data-lang="zh">华中科技大学无锡研究院</b><b data-lang="en" hidden>Huazhong University of Science and Technology, Wuxi Research Institute</b><span data-lang="zh">特聘研究员 · 2024.01—至今</span><span data-lang="en" hidden>Distinguished Research Fellow · Jan 2024–Present</span></div>
+          <div><b data-lang="zh">南方科技大学工程学院</b><b data-lang="en" hidden>Southern University of Science and Technology of China, School of Engineering</b><span data-lang="zh">产业教授 · 2020.10—2023.10</span><span data-lang="en" hidden>Professor of Practice · Oct 2020–Oct 2023</span></div>
+          <div><b data-lang="zh">浙江大学 ZJU-UIUC 联合学院</b><b data-lang="en" hidden>Zhejiang University, ZJU-UIUC Institute</b><span data-lang="zh">兼职副教授 · 2019.01—2021.12</span><span data-lang="en" hidden>Adjunct Associate Professor · Jan 2019–Dec 2021</span></div>
+        </div>
+        <div class="education-strip">
+          <p data-lang="zh">教育背景</p><p data-lang="en" hidden>EDUCATION</p>
+          <div><b data-lang="zh">博士 · 2012</b><b data-lang="en" hidden>Ph.D. 2012</b><span data-lang="zh">机械工程 · 加州大学伯克利分校</span><span data-lang="en" hidden>Mechanical Engineering · UC Berkeley</span></div>
+          <div><b data-lang="zh">硕士 · 2009</b><b data-lang="en" hidden>M.S. 2009</b><span data-lang="zh">机械工程 · 加州大学伯克利分校</span><span data-lang="en" hidden>Mechanical Engineering · UC Berkeley</span></div>
+          <div><b data-lang="zh">学士 · 2007</b><b data-lang="en" hidden>B.Eng. 2007</b><span data-lang="zh">机电工程 · 浙江大学 · 专业第一（1/55）</span><span data-lang="en" hidden>Mechatronic Engineering · Zhejiang University · 1/55</span></div>
+        </div>
+        <div class="section-return"><a data-lang="zh" href="#top">↑ 返回页首</a><a data-lang="en" href="#top" hidden>↑ Back to Top</a></div>
+      </section>
 
-</script>
+      <section id="focus" class="focus section-shell section-spaced" aria-labelledby="focus-title">
+        <div class="section-intro">
+          <p class="section-index">02 / FOCUS</p>
+          <h2 id="focus-title" data-lang="zh">技术方向与<br />应用领域</h2>
+          <h2 data-lang="en" hidden>Technical Focus<br />&amp; Applications</h2>
+          <p data-lang="zh">以机、电、感、控融合为方法论，贯通核心部件、整机设计、智能控制与应用系统，从 0-1 推动机器人关键技术突破，实现机器人全栈技术自研，解决从技术突破到规模化应用的关键问题。</p>
+          <p data-lang="en" hidden>Integrating mechanics, electronics, sensing, and control to connect components, system design, intelligent control, and applications—enabling 0-to-1 breakthroughs and full-stack self-developed robot technologies from technical breakthrough to scaled deployment.</p>
+        </div>
+        <div class="focus-grid">
+          <article class="focus-card"><span>01</span><h3 data-lang="zh">核心部件与关节模组</h3><h3 data-lang="en" hidden>Core Components & Joint Modules</h3><p data-lang="zh">精密减速机、伺服电机、驱动器、传感器与一体化关节模组等。</p><p data-lang="en" hidden>Precision reducers, servo motors, drives, sensors, and integrated joint modules.</p></article>
+          <article class="focus-card"><span>02</span><h3 data-lang="zh">整机设计与系统集成</h3><h3 data-lang="en" hidden>Robot Design & System Integration</h3><p data-lang="zh">整机性能、结构与可靠性综合设计，面向高性能重载机器人的 0-1 正向研发，以及面向关键行业的机器人化制造应用。</p><p data-lang="en" hidden>Integrated performance, structural, and reliability design, 0-to-1 forward development of high-performance heavy-load robots, and robotic manufacturing for critical industries.</p></article>
+          <article class="focus-card"><span>03</span><h3 data-lang="zh">智能运控与具身应用</h3><h3 data-lang="en" hidden>Intelligent Motion & Embodied Applications</h3><p data-lang="zh">运动规划、学习优化、传感器融合、工业具身智能，以及工业与移动作业场景的具身应用。</p><p data-lang="en" hidden>Motion planning, learning and optimization, sensor fusion, industrial embodied intelligence, and embodied applications in industrial and mobile operations.</p></article>
+          <article class="focus-card"><span>04</span><h3 data-lang="zh">功能安全与架构标准</h3><h3 data-lang="en" hidden>Functional Safety & Architecture Standards</h3><p data-lang="zh">功能安全控制、协同安全技术与机器人性能、测试和应用标准建设。</p><p data-lang="en" hidden>Functional-safety control, collaborative safety technologies, and standards for robot performance, testing, and applications.</p></article>
+        </div>
+        <div class="section-return"><a data-lang="zh" href="#top">↑ 返回页首</a><a data-lang="en" href="#top" hidden>↑ Back to Top</a></div>
+      </section>
 
-</head>
-<body>
-	<div id="content"><a name="Top"></a>
-		<div class="header">
-				<br>
-				<h1 class="bottomline" style="text-align: center;">Chen, Wenjie (陈文杰)</h1>
-		</div>
+      <section id="impact" class="impact section-spaced" aria-labelledby="impact-title">
+        <div class="section-shell">
+          <div class="section-heading-row">
+            <div>
+              <p class="section-index">03 / IMPACT</p>
+              <h2 id="impact-title" data-lang="zh">代表性成果</h2>
+              <h2 data-lang="en" hidden>Selected Contributions</h2>
+            </div>
+            <p class="heading-note" data-lang="zh">核心技术、产品开发与标准建设</p>
+            <p class="heading-note" data-lang="en" hidden>Core Technologies, Product Development, and Standards</p>
+          </div>
+          <div class="impact-list">
+            <article class="impact-item"><p>01</p><div><h3 data-lang="zh">关键技术自主攻关</h3><h3 data-lang="en" hidden>Independent Core Technologies</h3><p data-lang="zh">从 0-1 推动机器人整机及核心功能部件的关键技术突破，面向国家战略装备制造需求，提升产业链核心环节的自主化能力。</p><p data-lang="en" hidden>Achieving 0-to-1 technology breakthroughs while advancing heavy-load robots and critical components to strengthen independent capability in strategic equipment manufacturing.</p></div><b data-lang="zh">核心部件 → 整机</b><b data-lang="en" hidden>Components → Systems</b></article>
+            <article class="impact-item"><p>02</p><div><h3 data-lang="zh">从实验室到产品线</h3><h3 data-lang="en" hidden>From Lab to Product Line</h3><p data-lang="zh">推动精密减速器、伺服电机、智能控制器、重载机器人、具身机器人、AMR/AGV 与安全传感器等产品产业化，并孵化减速器、关节模组等新业务。</p><p data-lang="en" hidden>Commercializing precision reducers, servo motors, controllers, heavy-duty and embodied robots, AMR/AGVs, and safety sensors; incubating reducer and integrated-joint businesses.</p></div><b data-lang="zh">研发 → 产业化</b><b data-lang="en" hidden>R&amp;D → PRODUCT</b></article>
+            <article class="impact-item"><p>03</p><div><h3 data-lang="zh">国家级项目与标准建设</h3><h3 data-lang="en" hidden>Programs & Standards</h3><p data-lang="zh">作为牵头单位技术负责人，承担国家重点研发计划“智能机器人”专项及工信部重点专项；主导或参与 5 项国家标准、2 项行业/团体标准制定。</p><p data-lang="en" hidden>Technical lead for the National Key R&amp;D Program “Intelligent Robots” and major MIIT initiatives; led or contributed to 5 national and 2 industry/group standards.</p></div><b data-lang="zh">项目 → 标准</b><b data-lang="en" hidden>Programs → Standards</b></article>
+            <article class="impact-item"><p>04</p><div><h3 data-lang="zh">技术影响力与认可</h3><h3 data-lang="en" hidden>Recognition & Influence</h3><p data-lang="zh">2 项日内瓦国际发明展金奖，8 项国家级协会科技奖；科研与产业成果持续获得国际学界、产业界及专业机构认可。</p><p data-lang="en" hidden>Two Geneva Gold Prizes and eight science-and-technology awards from national industry societies, recognized across research, industry, and professional communities.</p></div><b data-lang="zh">成果 → 影响力</b><b data-lang="en" hidden>Results → Influence</b></article>
+          </div>
+    <div class="section-return"><a data-lang="zh" href="#top">↑ 返回页首</a><a data-lang="en" href="#top" hidden>↑ Back to Top</a></div>
+        </div>
+      </section>
 
-		<div class="subheader">
-			<div class="subheader_right">
-				<a href="index.html#Education">Education</a>
-				<a href="index.html#Experiences">Experiences</a>
-				<a href="index.html#Honors">Honors</a>
-				<a href="index.html#Patents">Patents</a>
-				<a href="index.html#Publications">Publications</a>
-				<a href="index.html#Miscellaneous">Misc.</a>
-			</div>
-			<div class="subheader_left">
-				<a href="index.html">Home</a>
-			</div>
-		</div>
- 		
- 		<div class="left">
-			<p><img src="images/wjchen.jpg" border="none" width="200" alt="" /></a></p>
-			<p><b><big>Chen, Wenjie</big></b>&nbsp; &nbsp; Ph.D.<br>
-			Curriculum Vitae [<a href="cv/CV-CWJ.pdf" target="new">PDF</a>, <a href="cv/CV-CWJ_CN.pdf" target="new">中文</a>]</p>
-		  <p style="text-align: left;">Director（所长）<br>
-		  	 Robotics and Automation Research Institute <br>
-		  	 Midea Corporate Research Center <br>
-		     <a href="https://www.midea.com/cn/" target="new">Midea Group (美的集团)</a><br>
-		     <br>Professor of Practice<br>
-		  	<a href="https://www.sustech.edu.cn/" target="new">Southern University of Science and Technology（南方科技大学）</a><br>
-		     <br>Adjunct Associate Professor<br>
-		  	<a href="http://zjui.intl.zju.edu.cn/" target="new">ZJU-UIUC Institute</a><br>
-		  	<a href="http://www.zju.edu.cn/" target="new">Zhejiang University</a><br></p>
-			<p style="text-align: left;">Email: wjchen AT berkeley.edu</p>
-			<br>
-			<p style="text-align: center;"><font size="1">Last updated on October 18, 2020</font></p>						
+      <section id="honors" class="honors section-shell section-spaced" aria-labelledby="honors-title">
+        <div class="section-heading-row">
+          <div>
+            <p class="section-index">04 / HONORS</p>
+            <h2 id="honors-title" data-lang="zh">代表性<br />奖项与荣誉</h2>
+            <h2 data-lang="en" hidden>Selected Honors<br />&amp; Awards</h2>
+          </div>
+          <p class="heading-note" data-lang="zh">人才计划、科技奖励与国际认可</p>
+          <p class="heading-note" data-lang="en" hidden>Talent Programs, Technology Awards, and International Recognition</p>
+        </div>
+        <div class="honor-grid">
+          <article class="honor-card"><p>01 / TALENT</p><h3 data-lang="zh">广东省珠江人才</h3><h3 data-lang="en" hidden>Guangdong Province Pearl River Talent Program</h3><span data-lang="zh">人才计划 · 2022</span><span data-lang="en" hidden>Talent Program · 2022</span></article>
+          <article class="honor-card"><p>02 / TALENT</p><h3 data-lang="zh">浙江省千人计划</h3><h3 data-lang="en" hidden>Zhejiang Provincial “Thousand Talents” Program</h3><span data-lang="zh">人才计划 · 2019</span><span data-lang="en" hidden>Talent Program · 2019</span></article>
+          <article class="honor-card"><p>03 / INDUSTRY</p><h3 data-lang="zh">美的科技明星</h3><h3 data-lang="en" hidden>Midea Technology Star</h3><span data-lang="zh">集团最高技术荣誉 · 2022</span><span data-lang="en" hidden>Highest Technology Honor of Midea Group · 2022</span></article>
+          <article class="honor-card"><p>04 / TECHNOLOGY</p><h3 data-lang="zh">广东省技术发明奖一等奖</h3><h3 data-lang="en" hidden>First Prize, Guangdong Provincial Technical Invention Award</h3><span data-lang="zh">省级科技奖励 · 2025</span><span data-lang="en" hidden>Provincial Technology Award · 2025</span></article>
+          <article class="honor-card"><p>05 / GLOBAL</p><h3 data-lang="zh">日内瓦国际发明展金奖</h3><h3 data-lang="en" hidden>Geneva International Invention Exhibition Gold Prize</h3><span data-lang="zh">2 项金奖，均排名第 1 · 2023</span><span data-lang="en" hidden>Two Gold Prizes, Both Ranked No. 1 · 2023</span></article>
+        </div>
+        <div class="section-return"><a data-lang="zh" href="#top">↑ 返回页首</a><a data-lang="en" href="#top" hidden>↑ Back to Top</a></div>
+      </section>
 
-<!-- GoStats JavaScript Based Code -->
-<script type="text/javascript" src="http://gostats.com/js/counter.js"></script>
-<script type="text/javascript">_gos='c5.gostats.com';_goa=1051585;
-_got=7;_goi=12;_goz=0;_god='hits';_gol='web page hit counter';_GoStatsRun();</script>
-<noscript><a target="_blank" title="web page hit counter" 
-href="http://gostats.com"><img alt="web page hit counter" 
-src="http://c5.gostats.com/bin/count/a_1051585/t_7/i_12/z_0/show_hits/counter.png" 
-style="border-width:0" /></a></noscript>
-<br/><a target="_blank" href="http://c5.gostats.com/summary.xml?id=1051585" 
-style="font: 9px sans-serif" title="Web Traffic">Web Traffic</a> 
-<!-- End GoStats JavaScript Based Code -->
+      <section id="media" class="media section-shell section-spaced" aria-labelledby="media-title">
+        <div class="section-intro media-intro">
+          <p class="section-index">05 / MEDIA</p>
+          <h2 id="media-title" data-lang="zh">相关媒体报道</h2>
+          <h2 data-lang="en" hidden>Selected Media Coverage</h2>
+        </div>
+        <div class="media-grid">
+          <a class="media-card" href="https://weixin.qq.com/sph/AK6VGRtgtU" target="_blank" rel="noopener noreferrer"><p>美的集团官方视频号</p><h3 data-lang="zh">央视《中华考工记》：机器人智造</h3><h3 data-lang="en" hidden>CCTV “Zhonghua Kaogongji”: Robot Manufacturing</h3><span data-lang="zh">重载机器人相关节目 <b>↗</b></span><span data-lang="en" hidden>Feature on Heavy-Load Robotics <b>↗</b></span></a>
+          <a class="media-card" href="https://weixin.qq.com/sph/ApgDuu0pMa" target="_blank" rel="noopener noreferrer"><p>美的集团官方视频号</p><h3 data-lang="zh">人民日报节目《这创新很中国》：唤醒·机器人</h3><h3 data-lang="en" hidden>People’s Daily: “This Innovation Is Very China”</h3><span data-lang="zh">机器人产业实践展示 <b>↗</b></span><span data-lang="en" hidden>Robotics Industry Practice Showcase <b>↗</b></span></a>
+          <a class="media-card" href="https://www.midea.com.cn/zh/about-midea/news/_aim2025?wcmmode=disabled" target="_blank" rel="noopener noreferrer"><p>美的集团官方</p><h3 data-lang="zh">AIM 2025：陈文杰博士作重载机器人主旨演讲</h3><h3 data-lang="en" hidden>AIM 2025: Dr. Chen’s Keynote on Heavy-Load Robots</h3><span data-lang="zh">美的蓝橙实验室官方报道 <b>↗</b></span><span data-lang="en" hidden>Official Midea Blue-Orange Lab Report <b>↗</b></span></a>
+          <a class="media-card" href="https://hkust.edu.hk/zh-hans/boundless/article/robotics-ready-real-world" target="_blank" rel="noopener noreferrer"><p>香港科技大学</p><h3 data-lang="zh">当机器人走进现实：重载机器人性能提升实践</h3><h3 data-lang="en" hidden>Robotics Ready for the Real World</h3><span data-lang="zh">陈文杰博士分享产业突破 <b>↗</b></span><span data-lang="en" hidden>Dr. Chen on Industrial Breakthroughs <b>↗</b></span></a>
+          <a class="media-card" href="https://epaper1.fsonline.com.cn/fsrb/resfile/2025-03-14/A04/fsrb20250314A04.pdf" target="_blank" rel="noopener noreferrer"><p>佛山日报</p><h3 data-lang="zh">首届重载机器人学术论坛：关键性能跨越式提升</h3><h3 data-lang="en" hidden>Heavy-Load Robot Forum: A Performance Leap</h3><span data-lang="zh">陈文杰博士介绍最新进展 <b>↗</b></span><span data-lang="en" hidden>Dr. Chen on the Latest Progress <b>↗</b></span></a>
+          <a class="media-card" href="https://foshan.ifeng.com/c/8Tx0OBbueUZ" target="_blank" rel="noopener noreferrer"><p>凤凰网佛山</p><h3 data-lang="zh">美的首届远见者大会：机器人产业融合创新</h3><h3 data-lang="en" hidden>Midea Visionary Conference: Integrated Innovation</h3><span data-lang="zh">陈文杰博士解读产业布局 <b>↗</b></span><span data-lang="en" hidden>Dr. Chen on Midea’s Robotics Strategy <b>↗</b></span></a>
+          <a class="media-card" href="https://www.163.com/dy/article/JC0AM4UJ0518SI4P.html" target="_blank" rel="noopener noreferrer"><p>新周刊</p><h3 data-lang="zh">机器人技术与产业化专题报道</h3><h3 data-lang="en" hidden>Feature Report on Robotics & Industrialization</h3><span data-lang="zh">相关专题报道 <b>↗</b></span><span data-lang="en" hidden>Related Feature Coverage <b>↗</b></span></a>
+        </div>
+    <div class="section-return"><a data-lang="zh" href="#top">↑ 返回页首</a><a data-lang="en" href="#top" hidden>↑ Back to Top</a></div>
+      </section>
 
-		</div>
-			
-		<div class="right">
-		
-			<h2 class="bottomline">About Me</h2>
-			<br>
-			<p>I am currently the Director (所长) of Robotics and Automation Research Institute, at Midea Corporate Research Center of <a href="https://www.midea.com/cn/" target="new">Midea Group (美的集团)</a>, where we explore core technologies, frontier technologies, and basic technologies in the robotics and automation domain. I also work as a Professor of Practice in <a href="https://www.sustech.edu.cn/" target="new">Southern University of Science and Technology（南方科技大学）</a>, a new uprising pioneered university in China, and as an adjunct associate professor in <a href="http://zjui.intl.zju.edu.cn/" target="new">ZJU-UIUC Institute</a>, a leading international collaborative education and research facility in China, supported by <a href="http://www.zju.edu.cn/" target="new">Zhejiang University</a> and <a href="https://illinois.edu/" target="new">UIUC</a>. 
-			<p>Before that, I was the CTO of Sihe Inc. (思核科技), where we built industrial AI solutions to empower SMEs in various industrial domains. In 2013-2018, I was the Chief Researcher <span style="text-align: left;">(主任)</span> of Learning Robot in Robot Laboratory and then of Robot Software in the Basic Research Laboratory at <a href="http://www.fanuc.co.jp/eindex.htm" target="new">FANUC Corporation</a>, leading the research  development of the next generation robot software (including but not limited to planning, control, teaching, learning, etc.) and the frontier robotic research collaboration with university.</p>
-			<p>Before I joined industry, I was a Ph.D student and then a Postdoctoral Scholar in the <a href="http://msc.berkeley.edu/index.html" target="new">Mechanical Systems Control Lab</a> in the <a href="http://www.me.berkeley.edu" target="new">Department of Mechanical Engineering</a> at <a href="http://www.berkeley.edu" target="new">UC Berkeley</a>. I worked with Professor <a href="http://www.me.berkeley.edu/faculty/tomizuka/index.html" target="new">Masayoshi Tomizuka</a> on the several <a href="http://msc.berkeley.edu/wjchen/research.html" target="new">research projects</a> including <i>"A Hybrid Control Systems Approach to Brain-Machine Interfaces for Exoskeleton Control"</i>  and <i>"Intelligent Control of Robot Manipulators for Performance Enhancement"</i>.</p>
-			<p>I obtained my M.S. and Ph.D. degrees both in Mechanical Engineering from <a href="http://www.berkeley.edu" target="new">UC Berkeley</a> in May 2009 and August 2012, respectively. Prior to coming to UC Berkeley, I was an undergraduate student in <a href="http://www.zju.edu.cn/english/" target="new">Zhejiang University</a> majored in Mechatronic Engineering and also hornored in Advanced Class of Engineering Education (ACEE) of Chu Kochen Honors College, where I got my Bachelor degree in June 2007. </p>
-		</div>		
-		
-		<div class="right">
-			<h4 class="date"><img src="images/comment.gif" alt="" /><a href="#Top">Back to Top</a></h4>
-		</div>
+      <section class="principles section-shell section-spaced" aria-labelledby="principles-title">
+        <p class="section-index">06 / PRINCIPLE</p>
+        <div><h2 id="principles-title" data-lang="zh">研究与工程方法</h2><h2 data-lang="en" hidden>Research &amp; Engineering Approach</h2><p data-lang="zh">始终聚焦极端工况下的机器人性能，致力于将学术创新转化为可靠、可制造、可规模化的产业能力。</p><p data-lang="en" hidden>Focused on robot performance under extreme operating conditions—turning research innovation into reliable, manufacturable, and scalable industrial capability.</p><div class="section-return"><a data-lang="zh" href="#top">↑ 返回页首</a><a data-lang="en" href="#top" hidden>↑ Back to Top</a></div></div>
+      </section>
+    </main>
 
-		<div class="right">
-		
-			<h2 class="bottomline"><a name="Education"></a>Education</h2>
-			<br>
-			<ul>
-				<li>August 2012 &nbsp;&nbsp;&nbsp;&nbsp;<b>Ph.D</b>, UC Berkeley
-				<ul>
-					<li>Department of Mechanical Engineering
-					<li>Major: Control	&nbsp;&nbsp;&nbsp;  Minor: Optimization, Dynamics
-					<li>Advisor: Professor Masayoshi Tomizuka
-					<li>Dissertation: <a href="https://escholarship.org/uc/item/3076j4ff" target="new"><i>Intelligent Control of Robots with Mismatched Dynamics and Mismatched Sensing</i></a>
-				  </ul>
-				<li>May 2009 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>M.S.</b>, UC Berkeley
-				<ul>
-					<li>Department of Mechanical Engineering
-					<li>Major: Control
-					<li>Advisor: Professor Masayoshi Tomizuka
-    					<li>Thesis: <i>Hybrid Adaptive Friction Compensation of Indirect Drive Trains Using Joint Sensor Fusion</i>
-				</ul>
-				<li>June 2007 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>B.Eng</b>, Zhejiang University, China
-				<ul>
-					<li>Mechanical Engineering & Automation (Mechatronic Engineering), 2002-2007<br>
-						<i>(Rank: 1/55)</i>
-					<li>Advanced Honor Class of Engineering Education (ACEE) of Chu Kochen Honors College, 2003-2006<br>
-						<i>(63 elites out of over 6000)</i>
-					<li>Advisor: Professor Bin Yao, Professor Qingfeng Wang
-					<li>Thesis: <i>Coordinated Motion Control of Biaxial Linear-Motor-Driven Stage</i>
-				</ul>
-			</ul>
-		</div>		
-
-		<div class="right">
-			<h4 class="date"><img src="images/comment.gif" alt="" /><a href="#Top">Back to Top</a></h4>
-		</div>
-
-		<div class="right">
-		
-		  <h2 class="bottomline"><a name="Experiences"></a>Experiences</h2>
-			<br>
-			<ul>
-	   		  <li>12/2019 - Present &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Director (所长)</b>,  Midea Group (美的集团) <br />
-	   		  	  Robotics and Automation Research Institute, Midea Corporate Research Center 
-                    <ul>
-                     <li>Manage the overall work of research institute, build and lead the institute research team </li>
-                      <li>Plan and explore core technologies, frontier technologies, and basic technologies in the area of robotics and automation </li>
-                  </ul>
-	   		  <li>10/2020 - Present &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Professor of Practice</b>, Southern University of Science and Technology <br />
-	   		  	Mechanical & Energy Engineering Department, College of Engineering
-	   		  <li>01/2019 - Present &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Adjunct Associate Professor</b>, ZJU-UIUC Institute, Zhejiang University <br />
-	   		  <li>07/2018 - 11/2019 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>CTO</b>,  Sihe Inc. (思核科技) <br />
-                    <ul>
-                     <li>Manage and lead the company’s R&D team and projects focusing on industrial AI & robotics </li>
-                      <li>Develop the technology strategy to align with company’s business objectives </li>
-                  </ul>
-	   		  <li>10/2017 - 06/2018 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Chief Researcher <span style="text-align: left;">(主任)</span></b>, FANUC Corporation <br />
-			      Robot Software Research Department, Basic Research Laboratory
-                    <ul>
-                     <li> Technical lead for research development of robot software: motion planning and control, optimization and learning, human-robot collaboration, etc.</li>
-                      <li> Technical lead for the frontier robotic research collaboration with university </li>
-                  </ul>
-              <li>11/2013 - 09/2017 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Chief Researcher <span style="text-align: left;">(主任)</span></b>, FANUC Corporation 
-					<br>
-					Learning Robot Development Department, Robot Laboratory
-					<ul>
-						<li> Technical lead for research and development of next generation robot concept controller: motion planning and control, optimization and learning, human-robot collaboration, etc.
-						<li> Technical lead for the frontier robotic research collaboration with university
-						<li> Technical lead for algorithm research and technology development of "Learning Robot" product
-					</ul>
-			  <li>08/2012 - 10/2013 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Postdoctoral Scholar</b>, UC Berkeley 
-					<br>
-					Department of Mechanical Engineering
-					<ul>
-						<li> Lead the research in exoskeleton design and control for a brain-machine-interface (BMI) study
-						<li> Lead the research in intelligent control for robot manipulator, including control, motion planning, sensor fusion, system modeling and identification, etc.
-					</ul>
-				<!--<li>08/2008 - 08/2012 &nbsp;&nbsp;&nbsp;&nbsp; <b>Graduate Student Researcher</b> 
-					<br>Department of Mechanical Engineering, UC Berkeley
-				<li>08/2010 - 12/2010 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Graduate Student Instructor</b> 
-					<br>Department of Electrical Engineering and Computer Science, UC Berkeley
-				<li>08/2007 - 05/2008 &nbsp;&nbsp;&nbsp;&nbsp; <b>Reader</b> 
-					<br>Department  of Mechanical Engineering, UC Berkeley
-				<li>07/2006 - 08/2006 &nbsp;&nbsp;&nbsp;&nbsp; <b>Senior Consultant Assistant</b> 
-					<br>Internship, Chuanyou Guanghan Honghua Co. Ltd, China
-				<li>08/2004 - 06/2007 &nbsp;&nbsp;&nbsp;&nbsp; <b>Undergraduate Research Assistant</b> 
-					<br>Institute of Mechatronic Control Engineering, Zhejiang University, China
-				<li>07/2005 - 07/2005 &nbsp;&nbsp;&nbsp;&nbsp; <b>Visiting Student Trainee</b> 
-					<br>Technical Department, Baosteel Group Corp., Shanghai, China-->
-			</ul>
-		</div>		
-
-		<div class="right">
-			<h4 class="date"><img src="images/comment.gif" alt="" /><a href="#Top">Back to Top</a></h4>
-		</div>
-
-		<div class="right">
-		
-			<h2 class="bottomline"><a name="Honors"></a>Honors & Awards (Selected)</h2>
-			<br>
-			<ul>
-				<li>2020 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<b>First Prize</b>, Research Innovation Award, Midea Corporate Reseaerch Center
-				<li>2020 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<b>Second Prize</b>, Research Innovation Award, Midea Corporate Reseaerch Center
-				<li>2019 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<b>Leading Talent of Elite Leader Program (A Level)</b>, Jiaxing, Zhejiang
-				<li>2018 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<b>Leading Talent of Elite Leader Program</b>, Haining, Zhejiang
-				<li>2018 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<b>First Prize</b>, 2018 Intelligent Manufacturing Venture Contest, Haining, Zhejiang
-				<li>2016 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<b>Best Application Paper Finalist</b>, <br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;	the 12th IEEE International Conference on Automation Science and Engineering (CASE)
-				<li>2015 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<b>Best Student Paper Finalist</b>, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;	2015 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM)
-				<li>2013 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<b>Best Student Paper Finalist</b>, the 6th IFAC Symposium on Mechatronic Systems
-				<li>2012 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<b>Best Paper in Session Award</b>, ASME Dynamic Systems and Control Conference
-				<li>04/2012 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Third place</b>, <a href="http://bigideas.berkeley.edu/" target="new">Big Ideas @ Berkeley</a> (Information Technology for Society), <a href="http://bigideas.berkeley.edu/winners/the-pika-pen/" target="new">"The PikaPen"</a>
-			  	<li>01/2011 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<b>Block Grant Award</b>, University of California at Berkeley
-			  	<li>2007-2008 &nbsp;&nbsp;	Chiang Chen Overseas Graduate Fellowship <br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;	<b>(10 awardees each year from China)</b>
-				<li>06/2007 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Excellent College Graduate of Zhejiang Province, 2007
-				<li>06/2007 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Excellent Graduate of Zhejiang University, 2007
-				<li>06/2007 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Excellent Undergraduate Thesis (Design) of Zhejiang University, 2007
-				<li>11/2006 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Weichai Power First Class Fellowship
-				<li>11/2005 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	FERROTEC Fellowship
-				<li>11/2005 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Fellowship of Tarim Oil Co. China
-				<li>2003-2007 &nbsp;&nbsp;	First Prize Scholarship of Excellent Undergraduate, Zhejiang University <br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;	<b>(Top 3%, 3 times)</b>
-				<li>06/2002 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Zhuang Caifang Scholarship, Fujian Province, China <br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;	<b>(Top 0.1% in Fujian high school graduates)</b>
-			</ul>
-		</div>		
-
-		<div class="right">
-			<h4 class="date"><img src="images/comment.gif" alt="" /><a href="#Top">Back to Top</a></h4>
-		</div>
-
-		<div class="right">
-		
-			<h2 class="bottomline"><a name="Service"></a>Professional Services</h2>
-			<br>
-			<!--Institute of Electrical and Electronics Engineers (IEEE), Member<br>
-			American Society of Mechanical Engineers (ASME), Member<br><br>-->
-
-			<p><b>Award Juror Panel</b><br>
-			IEEE/IFR <a href="https://ifr.org/events/iera-award/" target="new">IERA Award</a> (Innovation and Entrepreneurship in Robotics and Automation), 2017
-			</p>
-
-			<p><b>Proposal Review Panel</b><br>
-			External Reviewer of the Research Grants Council, Hong Kong (2013, 2014, 2016, 2017, 2020)<br>
-			</p>
-
-			<p><b>Supervisor & Academic Committee</b><br>
-			<ul>
-				<li>Young Talent Committee of Zhejiang Lab
-		    	<li>Academic Juror Committee of Midea Corporate Research Center
-    			<li>Academic Committee of Midea Corporate Research Center
-    		</ul>
-			</p>
-
-			<p><b>Editorial Board</b><br>
-			Editorial Board Member of the International Journal of Advanced Robotic Systems (IJARS)
-			</p>
-
-			<p><b>Conference Committee</b><br>
-			<ul>
-				<li>Program Committee, 2016 ASME International Symposium on Flexible Automation (ISFA)
-				<li>Associate Editor, 2016 American Control Conference (ACC)
-				<li>Associate Editor &amp; Session Organizer, 2015 ASME Dynamic Systems and Control Conference (DSCC)
-				<li>Associate Editor, 2015 American Control Conference (ACC)
-				<li>Topic & Session Organizer, 2014 ASME Dynamic Systems and Control Conference (DSCC)
-				<li>Program Committee, 2013 IEEE International Conference on Information and Automation (ICIA)
-				<li>Program Committee, 2013 IEEE International Conference on Robotics and Biomimetics (ROBIO)
-				<li>Session Chair, 2013 ASME Dynamic Systems and Control Conference (DSCC), "Robotics and Manipulators"
-			</ul>
-			</p>
-
-			<p><b>Journal Referee</b><br>
-			<ul>
-				<li>IEEE Transactions on Robotics (T-RO)
-				<li>IEEE Transactions on Industrial Electronics (TIE)
-				<li>IEEE Transactions on Industrial Informatics (TII)
-				<li>IEEE Transactions on Mechatronics (TMECH)
-				<li>IEEE Transactions on Control Systems Technology (TCST)
-       		  <li>IEEE Transactions on Automation Science and Engineering (T-ASE)
-			  <li>ASME Journal of Dynamic Systems, Measurement, and Control (JDSMC)
-			  <li>Robotics and Computer Integrated Manufacturing (Elsevier-RCIM)
-			  <li>Robotics and Autonomous Systems (RAS)
-			  <li>International Journal of Advanced Robotic Systems (IJARS)
-			  <li>International Journal of Intelligent Robotics and Applications (JIRA)
-			  <li>Advanced Robotics (RSJ-AR)
-			  <li>Asian Journal of Control (AJC)
-			  <li>Control and Cybernetics
-			  <li>Sensors (MDPI Journal)
-			  <li>Journal of Zhejiang University Science C (Computers & Electronics) (ZUSC)
-			</ul>
-			</p>
-
-			<p><b>Conference Referee</b><br>
-			<ul>
-				<li>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) </li>
-				<li>IEEE International Conference on Robotics and Automation (ICRA) </li>
-				<li>IEEE Conference on Decision and Control (CDC) </li>
-				<li>American Control Conference (ACC)				</li>
-				<li>IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM)
-			  <li>ASME Dynamic Systems and Control Conference (DSCC)
-			  <li>ASME International Symposium on Flexible Automation (ISFA)
-			  <li>IFAC Symposium on Robot Control (SYROCO)
-			  <li>IEEE International Conference on Information and Automation (ICIA)
-			  <li>IEEE International Conference on Robotics and Biomimetics (ROBIO)
-			</ul>
-			</p>
-	  </div>		
-
-		<div class="right">
-			<h4 class="date"><img src="images/comment.gif" alt="" /><a href="#Top">Back to Top</a></h4>
-		</div>
-
-		<div class="right">
-		
-			<h2 class="bottomline"><a name="Patents"></a>Patents</h2>
-			<br>
-            <strong>23 Granted + 28 Disclosed, </strong>across<strong> China, Japan, US, </strong>and<strong> Germany</strong>
-			<ol>
-				<li>Robot system having function to calculate position and orientation of sensor<i><br>
-			    JP6174654B2 (<strong>Granted</strong>), US9937620B2 (<strong>Granted</strong>), <br>CN106584489B (<strong>Granted</strong>), DE102016012065B4 (<strong>Granted</strong>)</i>
-			    <li>Object posture calculation system<i><br>
-				  JP6208724B2 (<strong>Granted</strong>), US9903698B2 (<strong>Granted</strong>), <br>
-				  CN106514712B (<strong>Granted</strong>), DE102016116404A1 (<strong>Granted</strong>)</i>
-			  <li>Robot apparatus  having  learning function <i><br>
-		      JP6386516B2 (<strong>Granted</strong>), US10254741B2 (<strong>Granted</strong>), <br>CN106965171B (<strong>Granted</strong>), DE102017000063B4 (<strong>Granted</strong>)</i>
-			  <li>Robot control system <i><br>
-		      JP6514156B2 (<strong>Granted</strong>), US10507583B2 (<strong>Granted</strong>), <br>CN107756423B (<strong>Granted</strong>), DE102017118276A1 (Disclosed)</i>
-			  <li>Robot system having learning control function and learning control method <i><br>
-			    US10618164B2 (<strong>Granted</strong>), <br>CN108422420B (<strong>Granted</strong>), DE102018001026A1 (Disclosed)</i> 
-			  <li>Device, system, and method for automatically generating motion path of robot <i><br>
-			    US20180290302A1 (Disclosed), <br>CN108687770A (Disclosed), DE102018107857A1 (Disclosed)</i>
-              <li>Shape recognition device, shape recognition method, and program <i><br>
-                JP6499716B2 (<strong>Granted</strong>), US10521687B2 (<strong>Granted</strong>), <br>CN108932363A (Disclosed), DE102018206193A1 (Disclosed)</i>
-			  <li>Gripper control device, gripper control method, and gripper simulation device <i><br>
-			    JP6640792B2 (<strong>Granted</strong>), US10744654B2 (<strong>Granted</strong>), <br>CN109202942A (Disclosed), DE102018115451A1 (Disclosed)</i>
-			  <li>Robot system <i><br>
-			    JP6564433B2 (<strong>Granted</strong>), <br>CN109421049B (<strong>Granted</strong>), DE102018214272A1 (Disclosed)</i>
-			  <li>Controller device and machine learning device<i><br>
-			    JP2019185742A (Disclosed), US20190317472A1 (Disclosed), <br>CN110389556A (Disclosed), DE102019002644A1 (Disclosed)</i>
-			  <li>Robot hand controller device and system<i><br>
-			    JP2019181622A (Disclosed), US20190308333A1 (Disclosed), <br>CN110355774A (Disclosed), DE102019108787A1 (Disclosed)</i>
-			  <li>Robot motion teaching device, robot system, and robot controller device<i><br>
-			    JP2019188477A (Disclosed), US20190321983A1 (Disclosed), <br>CN110385694A (Disclosed), DE102019109624A1 (Disclosed)</i>
-			  <li>Robot system<i><br>
-			    JP2020011326A (Disclosed), US20200023518A1 (Disclosed), <br>CN110722550A (Disclosed), DE102019118202A1 (Disclosed)</i>
-			  <li>Robot controller device and robot control method<i><br>
-			    JP2019181664A (Disclosed)</i>
-			  <li>Parameter adaptation according to motion command<i><br>
-			    JP2020035159A (Disclosed)</i>
-			  <li>System, method and program of robust controller tuning<i><br>
-			    JP2018122023 (Pending)</i>
-			  <li>Robust tuning device and model generation method<i><br>
-			    JP2018120417 (Pending)</i>
-		  </ol>
-		</div>
-
-		<div class="right">
-		  <h4 class="date"><img src="images/comment.gif" alt="" /><a href="#Top">Back to Top</a></h4>
-		</div>
-
-		<div class="right">
-		
-			<h2 class="bottomline"><a name="Publications"></a>Publications</h2>
-			<br>
-			<b>Journal Publications</b> (* denotes corresponding author)<br>
-			<ol reversed start="8">
-				<li>Zheng Chen<sup>*</sup>, Fanghao Huang, <b>Wenjie Chen</b>, Junhui Zhang, Weichao Sun, Jiawang Chen, Jason Gu, and Shiqiang Zhu, "RBFNN-based Adaptive Sliding Mode Control Design for Delayed Nonlinear Multilateral Tele-robotic System With Cooperative Manipulation," <i>IEEE Transactions on Industrial Informatics</i>, vol. 16, no. 2, pp. 1236-1247, Feb. 2020 &nbsp; <a href="http://dx.doi.org/10.1109/TII.2019.2927806" target="new">[DOI]</a>
-				<li>Junkai Lu<sup>*</sup>, Kevin Haninger, <b>Wenjie Chen</b>, Masayoshi Tomizuka, Suraj Gowda, and Jose M. Carmena, "Design of a Passive Upper Limb Exoskeleton for Macaque Monkeys," <i>ASME Journal of Dynamic Systems, Measurement, and Control</i>, 138(11), 111011 (Jul 27, 2016) &nbsp; <a href="http://dx.doi.org/10.1115/1.4033837" target="new">[DOI]</a> &nbsp; <a href="publications\J2016_JDSMC.pdf" target="new">[PDF]</a>
-				<li>Pedro Reynoso-Mora<sup>*</sup>, <b>Wenjie Chen</b>, and Masayoshi Tomizuka, "A Convex Relaxation for the Time-optimal Trajectory Planning of Robotic Manipulators along Predetermined Geometric Paths," <i>Optimal Control Applications and Methods</i>, vol. 37, no. 6, pp. 1263-1281, Nov./Dec. 2016 &nbsp; <a href="http://dx.doi.org/10.1002/oca.2234" target="new">[DOI]</a> &nbsp; <a href="publications\J2016_OCAM.pdf" target="new">[PDF]</a>
-				<li><b>Wenjie Chen</b><sup>*</sup>, Kyoungchul Kong, and Masayoshi Tomizuka, "Dual-Stage Adaptive Friction Compensation for Precise Load Side Position Tracking of Indirect Drive Mechanisms," <i>Control Systems Technology, IEEE Transactions on</i>, vol. 23, no. 1, pp. 164-175, January 2015 &nbsp; <a href="http://dx.doi.org/10.1109/TCST.2014.2317776" target="new">[DOI]</a> &nbsp; <a href="publications\J2015_TCST.pdf" target="new">[PDF]</a>
-				<li><b>Wenjie Chen</b><sup>*</sup>, and Masayoshi Tomizuka, "Dual-Stage Iterative Learning Control for MIMO Mismatched System with Application to Robots with Joint Elasticity," <i>Control Systems Technology, IEEE Transactions on</i>, vol. 22, no. 4, pp. 1350-1361, July 2014&nbsp; <a href="http://dx.doi.org/10.1109/TCST.2013.2279652" target="new">[DOI]</a> &nbsp; <a href="publications\J2014_TCST.pdf" target="new">[PDF]</a>
-				<li><b>Wenjie Chen</b><sup>*</sup>, and Masayoshi Tomizuka, "Direct Joint Space State Estimation in Robots with Multiple Elastic Joints," <i>Mechatronics, IEEE/ASME Transactions on</i>, vol. 19, no. 2, pp. 697-706, April 2014&nbsp; <a href="http://dx.doi.org/10.1109/TMECH.2013.2255308" target="new">[DOI]</a> <a href="publications/J2014_TMECH.pdf" target="new">[PDF]</a> 
-       		  		<li><b>Wenjie Chen</b><sup>*</sup>, and Masayoshi Tomizuka, "Comparative Study on State Estimation in Elastic Joints," <i>Asian Journal of Control</i>, vol. 16, no. 3, pp. 818-829, May 2014&nbsp; <a href="http://dx.doi.org/10.1002/asjc.755" target="new">[DOI]</a> &nbsp; <a href="publications\J2014_ASJC.pdf" target="new">[PDF]</a>
-			  	<li>Jonathan Asensio, <b>Wenjie Chen</b><sup>*</sup>, and Masayoshi Tomizuka, "Feedforward Input Generation Based on Neural Network Prediction in Multi-Joint Robots," <i>Journal of Dynamic Systems, Measurement, and Control</i>, 136 (3), 031002, May 2014&nbsp; <a href="http://dx.doi.org/10.1115/1.4025986" target="new">[DOI]</a> &nbsp; <a href="publications\J2014_JDSMC.pdf" target="new">[PDF]</a>
-			</ol>
-<!--		<u>Under Review or In Revision (Journal)</u><br>
-			<ol reversed start="16"> 
-            </ol> -->
-			<b>Peer Reviewed Conference Proceedings</b> (* denotes corresponding author)<br>
-			<ol reversed start="26">
-				<li>Yongxiang Fan<sup>*</sup>, Wei Gao<sup>*</sup>, <b>Wenjie Chen</b>, and Masayoshi Tomizuka, "Real-Time Finger Gaits Planning for Dexterous Manipulation," in <i>Proceedings of the 20th World Congress of the International Federation of Automatic Control (IFAC)</i>, Toulouse, France, July 9-14, 2017 &nbsp; <a href="publications\C2017_IFAC.pdf" target="new">[PDF]</a></li>
-				<li>Chung-Yen Lin<sup>*</sup>, <b>Wenjie Chen</b>, and Masayoshi Tomizuka, "Learning Control for Task Specific Industrial Robots," in <i>Proceedings of the 55th IEEE Conference on Decision and Control (CDC)</i>, Las Vegas, USA, December 12-14, 2016 &nbsp; <a href="publications\C2016_CDC.pdf" target="new">[PDF]</a></li>
-				<li>Te Tang<sup>*</sup>, Changliu Liu, <b>Wenjie Chen</b>, and Masayoshi Tomizuka, "Robotic Manipulation of Deformable Objects by Tangent Space	Mapping and Non-Rigid Registration," in <i>Proceedings of the 2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i>,  Deajeon, Korea, pp. 2689-2696, October 9-14, 2016 &nbsp; <a href="publications\C2016_IROS.pdf" target="new">[PDF]</a></li>
-				<!--<li>Yu Zhao<sup>*</sup>, <b>Wenjie Chen</b>, Xiaowen Yu, Chung-Yen Lin, Te Tang, and Masayoshi Tomizuka, "Accurate Trajectory Tracking of Flexible Joint Robots: A Neuroadaptive Control Approach," <i>the 2016 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM)</i>, Banff, Alberta, Canada, July 12-15, 2016, submitted</li>-->
-				<li>Yu Zhao<sup>*</sup>, <b>Wenjie Chen</b>, Te Tang, and Masayoshi Tomizuka, "Zero Time Delay Input Shaping for Smooth Settling of Industrial Robots," in <i>Proceedings of the 12th IEEE International Conference on Automation Science and Engineering (CASE)</i>,  Fort Worth, TX, USA, August 21-24, 2016 &nbsp; <a href="publications\C2016_CASE_IS.pdf" target="new">[PDF]</a></li>
-				<li>Te Tang<sup>*</sup>, Hsien-Chung Lin, Yu Zhao, <b>Wenjie Chen</b>, and Masayoshi Tomizuka, "Autonomous Alignment of Peg and Hole by Force/Torque Measurement for Robotic Assembly," in <i>Proceedings of the 12th IEEE International Conference on Automation Science and Engineering (CASE)</i>,  Fort Worth, TX, USA, August 21-24, 2016 <b><font color="red">(Best application paper finalist)</font></b>&nbsp; <a href="publications\C2016_CASE_PH.pdf" target="new">[PDF]</a></li>
-				<li>Te Tang<sup>*</sup>, Hsien-Chung Lin, Yu Zhao, Yongxiang Fan, <b>Wenjie Chen</b>, and Masayoshi Tomizuka, "Teach Industrial Robots Peg-Hole-Insertion by Human Demonstration," in <i>Proceedings of the 2016 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM)</i>, Banff, Alberta, Canada, July 12-15, 2016 &nbsp; <a href="publications\C2016_AIM.pdf" target="new">[PDF]</a></li>
-				<li>Yongxiang Fan<sup>*</sup>, Hsien-Chung Lin, Yu Zhao, Chung-Yen Lin, Te Tang, Masayoshi Tomizuka, and <b>Wenjie Chen</b>, "Object Position and Orientation Tracking for Manipulators Considering Unnegligible Sensor Physics," in <i>Proceedings of the 2016 ASME  International Symposium on Flexible Automation (ISFA)</i>, Cleveland, USA, August 1-3, 2016 &nbsp; <a href="publications\C2016_ISFA.pdf" target="new">[PDF]</a></li>
-				<li>Chung-Yen Lin<sup>*</sup>, Yu Zhao, Masayoshi Tomizuka, and <b>Wenjie Chen</b>, "Path-Constrained Trajectory Planning for Robot Service Life Optimization," in <i>Proceedings of the 2016 American Control Conference (ACC)</i>,  Boston, MA, USA, July 6-8, 2016 &nbsp; <a href="publications\C2016_ACC.pdf" target="new">[PDF]</a></li>
-				<li>Hsien-Chung Lin<sup>*</sup>, Te Tang, Yongxiang Fan, Yu Zhao, Masayoshi Tomizuka, and <b>Wenjie Chen</b>, "Robot Learning from Human Demonstration with Remote Lead through Teaching," in <i>Proceedings of the 2016 European Control Conference (ECC)</i>, Aalborg, Denmark, June 29-July 1, 2016 &nbsp; <a href="publications\C2016_ECC.pdf" target="new">[PDF]</a></li>
-				<li>Hsien-Chung Lin<sup>*</sup>, Te Tang, Masayoshi Tomizuka, and <b>Wenjie Chen</b>, "Remote Lead Through Teaching by Human Demonstration Device," in <i>Proceedings of the 8th ASME Dynamic Systems and Control Conference (DSCC)</i>,  Columbus, Ohio, USA, October 28-30, 2015 &nbsp; <a href="publications\C2015_DSCC.pdf" target="new">[PDF]</a></li>
-				<li>Junkai Lu<sup>*</sup>, Kevin Haninger, <b>Wenjie Chen</b>, and Masayoshi Tomizuka, "Design and Torque-Mode Control of a Cable-Driven Rotary Series Elastic Actuator for Subject-Robot Interaction," in <em>Proceedings of the IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM)</em>, Busan, Korea, pp. 158-164, July 7-11, 2015 <b><font color="red">(Best student paper finalist)</font></b>	&nbsp; <a href="publications\C2015_AIM.pdf" target="new">[PDF]</a></li>
-				<li>Junkai Lu<sup>*</sup>, <b>Wenjie Chen</b>, Kevin Haninger, and Masayoshi Tomizuka, "A Passive Upper Limb Exoskeleton for Macaques in a BMI Study - Kinematic Design, Analysis, and Calibration," in <i>Proceedings of the 7th ASME Dynamic Systems and Control Conference (DSCC)</i>, San Antonio, Texas, USA, October 22-24, 2014 &nbsp; <a href="publications\C2014_DSCC.pdf" target="new">[PDF]</a></li>
-			  	<li>Kevin Haninger<sup>*</sup>, Junkai Lu, <b>Wenjie Chen</b>, and Masayoshi Tomizuka, "Kinematic Design and Analysis for a Macaque Upper-Limb Exoskeleton with Shoulder Joint Alignment," in <i>Proceedings of the 2014 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i>, Chicago, Illinois, USA, pp. 478-483, September 14-18, 2014 &nbsp; <a href="publications\C2014_IROS.pdf" target="new">[PDF]</a>
-              	<li>Yizhou Wang<sup>*</sup>, <b>Wenjie Chen</b>, Masayoshi Tomizuka, and Badr N. Alsuwaidan, "Model Predictive Sliding Mode Control - for Constraint Satisfaction and Robustness," in <i>Proceedings of the 6th Annual ASME Dynamic Systems and Control Conference (DSCC)</i>, Palo Alto, CA, October 21-23, 2013 &nbsp; <a href="publications\C2013_DSCC_MPSMC.pdf" target="new">[PDF]</a>
-				<li>Chung-Yen Lin<sup>*</sup>, <b>Wenjie Chen</b>, and Masayoshi Tomizuka, "Automatic Sensor Frame Identification in Industrial Robots with Joint Elasticity," in <i>Proceedings of the 6th Annual ASME Dynamic Systems and Control Conference (DSCC)</i>, Palo Alto, CA, October 21-23, 2013 &nbsp; <a href="publications\C2013_DSCC_SenCal.pdf" target="new">[PDF]</a>
-			  	<li>Pedro Reynoso-Mora<sup>*</sup>, <b>Wenjie Chen</b>, and Masayoshi Tomizuka, "On the Time-optimal Trajectory Planning and Control of Robotic Manipulators Along Predefined Paths," in <i>Proceedings of the 2013 American Control Conference (ACC)</i>, Washington, DC, pp. 371-377, June 17-19, 2013 &nbsp; <a href="publications\C2013_ACC_TP.pdf" target="new">[PDF]</a>
-				<li>Chi-Shen Tsai<sup>*</sup>, <b>Wenjie Chen</b>, Daekyu Yun, and Masayoshi Tomizuka, "Iterative Learning Control for Vibration Reduction in Industrial Robots with Link Flexibility," in <i>Proceedings of the 2013 American Control Conference (ACC)</i>, Washington, DC, June 17-19, 2013&nbsp; <a href="publications\C2013_ACC_ILC.pdf" target="new">[PDF]</a>
-			  	<li>Junkai Lu<sup>*</sup>, <b>Wenjie Chen</b>, and Masayoshi Tomizuka, "Kinematic Design and Analysis of a 6-DOF Upper Limb Exoskeleton Model for a Brain-Machine Interface Study," in <i>Proceedings of the 6th IFAC Symposium on Mechatronic Systems (Mechatronics '13)</i>, Hangzhou, China, pp. 293-300, April 10-12, 2013 <b><font color="red">(Best student paper finalist)</font></b>&nbsp; <a href="publications\C2013_MECH_BMI.pdf" target="new">[PDF]</a>
-				<li>Yizhou Wang<sup>*</sup>, <b>Wenjie Chen</b>, and Masayoshi Tomizuka, "Extended Kalman Filtering for Robot Joint Angle Estimation Using MEMS Inertial Sensors," in <i>Proceedings of the 6th IFAC Symposium on Mechatronic Systems (Mechatronics '13)</i>, Hangzhou, China, pp. 406-413, April 10-12, 2013&nbsp; <a href="publications\C2013_MECH_EKF.pdf" target="new">[PDF]</a>
-				<li><b>Wenjie Chen</b><sup>*</sup>, and Masayoshi Tomizuka, "Iterative Learning Control with Sensor Fusion for Robots with Mismatched Dynamics and Mismatched Sensing," in <i>Proceedings of the 2012 ASME Dynamic Systems and Control Conference (DSCC)</i>, Fort Lauderdale, Florida, USA, pp. 1480-1488, October 17-19, 2012 <b><font color="red">(Best paper in session award)</font></b>&nbsp; <a href="publications\C2012_DSCC_ILC.pdf" target="new">[PDF]</a>
-				<li>Jonathan Asensio, <b>Wenjie Chen</b><sup>*</sup>, and Masayoshi Tomizuka, "Robot Learning Control Based on Neural Network Prediction," in <i>Proceedings of the 2012 ASME Dynamic Systems and Control Conference (DSCC)</i>, Fort Lauderdale, Florida, USA, pp. 1489-1497, October 17-19, 2012&nbsp; <a href="publications\C2012_DSCC_NNILC.pdf" target="new">[PDF]</a>
-				<li><b>Wenjie Chen</b><sup>*</sup>, and Masayoshi Tomizuka, "Load Side State Estimation in Robot with Joint Elasticity," in <i>Proceedings of the 2012 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM)</i>, Kaohsiung, Taiwan, pp. 598-603, July 11-14, 2012&nbsp; <a href="publications\C2012_AIM.pdf" target="new">[PDF]</a>
-				<li><b>Wenjie Chen</b><sup>*</sup>, and Masayoshi Tomizuka, "A Two-Stage Model Based Iterative Learning Control Scheme for a Class of MIMO Mismatched Linear Systems," in <i>Proceedings of the 2012 ASME International Symposium on Flexible Automation (ISFA)</i>, St. Louis, Missouri, USA, paper No. ISFA2012-7199, June 18-20, 2012&nbsp; <a href="publications\C2012_ISFA.pdf" target="new">[PDF]</a>
-				<li>Cong Wang<sup>*</sup>, <b>Wenjie Chen</b>, and Masayoshi Tomizuka, "Robot End-effector Sensing with Position Sensitive Detector and Inertial Sensors," in <i>Proceedings of the 2012 IEEE International Conference on Robotics and Automation (ICRA)</i>, Saint Paul, Minnesota, USA, pp. 5252-5257, May 14-18, 2012&nbsp; <a href="publications\C2012_ICRA.pdf" target="new">[PDF]</a>
-				<li><b>Wenjie Chen</b><sup>*</sup>, and Masayoshi Tomizuka, "Estimation of Load Side Position in Indirect Drive Robots by Sensor Fusion and Kalman Filtering," in <i>Proceedings of the 2010 American Control Conference (ACC)</i>, Baltimore, Maryland, USA, pp. 6852-6857, June 30-July 2, 2010&nbsp; <a href="publications\C2010_ACC_Mod.pdf" target="new">[PDF]</a>
-				<li><b>Wenjie Chen</b><sup>*</sup>, Kyoungchul Kong, and Masayoshi Tomizuka, "Hybrid Adaptive Friction Compensation of Indirect Drive Trains," in <i>Proceedings of the 2009 ASME Dynamic Systems and Control Conference (DSCC)</i>, Hollywood, California, USA, pp. 313-320,October 12-14, 2009&nbsp; <a href="publications\C2009_DSCC.pdf" target="new">[PDF]</a>
-			</ol>
-            
-<!--			<u>Under Review (Conference)</u><br>
-			<ol reversed start="1">
-		  </ol>
--->
-			<b>Technical Reports</b><br>
-			<ol reversed>
-				<li>Michael Chan, Cong Wang, Chung-Yen Lin, <b>Wenjie Chen</b>, and Masayoshi Tomizuka, "UCB-FANUC Project Activity Report, June 2012-May 2013," <i>University of California at Berkeley</i>, June 2013
-				<li><b>Wenjie Chen</b>, Pedro Reynoso-Mora, Michael Chan, Cong Wang, Chung-Yen Lin, and Masayoshi Tomizuka, "UCB-FANUC Project Activity Report, June 2011-May 2012," <i>University of California at Berkeley</i>, June 2012
-				<li>Daekyu Yun, Chi-Shen Tsai, <b>Wenjie Chen</b>, and Masayoshi Tomizuka, "Development of Design/Analysis and Evaluation Technologies for Vibration Reduction of LCD Substrate Transfer Robot," <i>Technical Report to Hyundai Heavy Industries Co., Ltd.</i>, University of California at Berkeley, February 2012
-				<li><b>Wenjie Chen</b>, Pedro Reynoso-Mora, Michael Chan, Cong Wang, and Masayoshi Tomizuka, "UCB-FANUC Project Activity Report, June 2010-May 2011," <i>University of California at Berkeley</i>, June 2011
-				<li><b>Wenjie Chen</b>, Pedro Reynoso-Mora, Michael Chan, Cheng-Huei Han, and Masayoshi Tomizuka, "UCB-FANUC Project Activity Report, June 2009-May 2010," <i>University of California at Berkeley</i>, June 2010
-				<li>Cheng-Huei Han, <b>Wenjie Chen</b>, Pedro Reynoso-Mora, Michael Chan, and Masayoshi Tomizuka, "UCB-FANUC Project Activity Report, June 2008-May 2009," <i>University of California at Berkeley</i>, June 2009
-				<!--<li><b>Wenjie Chen</b>, "Hybrid Adaptive Friction Compensation of Indirect Drive Trains Using Joint Sensor Fusion," <i>Master report, University of California at Berkeley,</i> May 2009-->
-				<li>Cheng-Huei Han, Chun-Chih Wang, <b>Wenjie Chen</b>, and Masayoshi Tomizuka, "UCB-FANUC Project Activity Report, June 2007-May 2008," <i>University of California at Berkeley</i>, June 2008
-			</ol>
-		</div>		
-
-		<div class="right">
-			<h4 class="date"><img src="images/comment.gif" alt="" /><a href="#Top">Back to Top</a></h4>
-		</div>
-
-		<div class="right">
-		
-			<h2 class="bottomline"><a name="Miscellaneous"></a>Talks & Presentations</h2>
-			<br>
-			<ul>
-				<li>01/04/2020, "Intelligent Robots: Robot Learning and its Industrial Applications", Polytechnic Institute, Zhejiang University, China
-				<li>12/22/2018, "Intelligent Robotic Technologies and Industrial Applications", Polytechnic Institute, Zhejiang University, China
-				<li>05/29/2017, "Robotic Learning in Industrial Applications", <i>ICRA 2017 Workshop "Recent Advances in Dynamics for Industrial Applications"</i>, Singapore
-				<li>08/14/2014, "Mechatronic Considerations for Mismatched Robotic Systems", Google Robotics</li>
-				<li>04/10/2013, "EFRI-M3C: A hybrid control systems approach to brain-machine interfaces for exoskeleton control (Overview)", Qiushi Academy for Advanced Studies, Zhejiang University, China
-				<li>03/11/2013, "Mechatronic Considerations for Mismatched Robotic Systems", Department of Mechanical Engineering, Carnegie Mellon University
-				<li>03/04/2013, "Mechatronic Considerations for Mismatched Robotic Systems", Department of Mechanical Engineering, Worcester Polytechnic Institute
-				<li>02/26/2013, "Mechatronic Considerations for Mismatched Robotic Systems", Department of Mechanical Engineering and Engineering Science, University of North Carolina at Charlotte
-				<li>08/09/2012, "Intelligent Control of Robots with Mismatched Dynamics and Mismatched Sensing", <i>Ph.D. seminar</i>, University of California, Berkeley
-				<li>03/08/2012, "EFRI-M3C: A hybrid control systems approach to brain-machine interfaces for exoskeleton control (NSF EFRI-M3C 1137267)", <i>Poster presentation (group work), NSF EFRI Grantees Conference</i>, Arlington, VA, Mar. 07-09, 2012
-				<li>02/28/2012, "Estimation in Robots with Mismatched Sensing", <i>The 1st International Workshop between University of California Berkeley and Keio University</i>, Berkeley, CA
-				<li>04/26/2011, "Disturbance Cancellation Schemes for Indirect Drive Robot Manipulator", FANUC Corporation, Japan
-			</ul>
-		</div>
-
-		<div class="right">
-			<h4 class="date"><img src="images/comment.gif" alt="" /><a href="#Top">Back to Top</a></h4>
-		</div>
-
-		<div class="right">
-		
-			<h2 class="bottomline"><a name="Teaching"></a>Teaching & Mentoring</h2>
-			<br>
-			<ul>
-				<li><b>Mentoring</b>, UC Berkeley, 2009-Present
-					<br><i>Supervise research of undergrad and graduate students as well as visiting students (from Spain, Netherland, China, etc.)</i>
-				<li><b>Teaching Assistant</b> (Graudate Student Instructor), UC Berkeley
-					<br><i>Deliver review lectures, discussions, and labs, hold office hours, grade lab reports and exams</i>
-					<ul>
-						<li><a href="http://www-inst.eecs.berkeley.edu/~ee128/fa10/" target="new">Feedback Control Systems (EE128/ME134)</a>, Fall 2010	 
-					</ul>
-				<li><b>Grader</b> (Reader), UC Berkeley 
-					<br><i>Grade problem sets and exams</i>
-					<ul>
-						<li><u>Dynamic Systems and Feedback (ME132)</u>, Fall 2007, Spring 2008 	 
-						<li><u>Introduction to Computer Programming for Scientists and Engineers (E7)</u>, Fall 2007 
-					</ul>
-			</ul>
-		</div>		
-
-		<div class="right">
-			<h4 class="date"><img src="images/comment.gif" alt="" /><a href="#Top">Back to Top</a></h4>
-		</div>
-
-		<div class="right">
-		
-			<h2 class="bottomline"><a name=""></a>Skills</h2>
-			<br>
-			<ul>
-				<!--<li><b>Computer Software:</b> MATLAB, LabVIEW, C, LaTeX, HTML, MS Office"-->
-			  	<li><b>Languages:</b> Native in Chinese; Fluent in English; Intermediate in Japanese
-				<li><b>Related Courses</b> (UC Berkeley): 
-					<ul>
-						<li><b>Dynamics & Control: </b>Dynamic Systems & Feedback, Advanced Control Systems I & II, Control of Nonlinear Dynamic Systems, Advanced Robotics, Hybrid System, Real-Time Applications of Mini and Micro Computers, Multivariable Control System Design, Oscillations in Linear Systems, Oscillations in Nonlinear Systems, Intermediate Dynamics
-						<li><b>Math & Optimization: </b>Introduction to Analysis, Mathematical Methods in Engineering, Mathematical Methods for Optimization, Introduction to Convex Optimization, Mathematical Programming II - Nonlinear Programming
-					</ul>
-			</ul>
-		</div>		
-
-		<div class="right">
-			<h4 class="date"><img src="images/comment.gif" alt="" /><a href="#Top">Back to Top</a></h4>
-		</div>
-
-		<div class="footer">
-			<p>Copyright &copy; 2009-2020, Wenjie Chen</p>
-		</div>
-	</div>
-</body>
+    <footer class="site-footer section-shell">
+      <div><p class="footer-mark">Wenjie Chen<span> / </span>陈文杰</p><p data-lang="zh">机器人 · AI · 产业化</p><p data-lang="en" hidden>Robotics · AI · Industrialization</p></div>
+      <div class="footer-contact"><a href="mailto:cwj_zheda@hotmail.com">cwj_zheda@hotmail.com</a><p>© <span id="year"></span> Wenjie Chen</p></div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
 </html>
