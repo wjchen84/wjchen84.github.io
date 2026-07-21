@@ -33,4 +33,26 @@
 
   setLanguage(savedLanguage === 'en' ? 'en' : 'zh');
   document.querySelector('#year').textContent = String(new Date().getFullYear());
+
+  const analytics = window.WENJIE_ANALYTICS;
+  if (analytics && typeof analytics.endpoint === 'string' && analytics.endpoint.startsWith('https://')) {
+    const payload = {
+      site: analytics.site || 'wenjie-chen',
+      variant: analytics.variant || 'low-key',
+      path: window.location.pathname || '/',
+      referrer: document.referrer || '',
+    };
+    try {
+      window.fetch(analytics.endpoint, {
+        method: 'POST',
+        mode: 'cors',
+        credentials: 'omit',
+        keepalive: true,
+        headers: { 'Content-Type': 'text/plain;charset=UTF-8' },
+        body: JSON.stringify(payload),
+      }).catch(() => {});
+    } catch (_) {
+      // Analytics must never interfere with the public website.
+    }
+  }
 })();
