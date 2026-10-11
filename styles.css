@@ -71,6 +71,12 @@ h1, h2, h3, p { margin-top: 0; } h1, h2, h3 { font-family: var(--display); word-
 }
 
 /* Low-key editorial hierarchy */
+.honors .heading-note { color: var(--muted); }
+.honor-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.honor-card h3 { overflow-wrap: anywhere; word-break: normal; margin-bottom: 16px; }
+.honor-card .honor-project { color: var(--muted); font-size: 12px; font-weight: 400; letter-spacing: 0; line-height: 1.6; margin-bottom: 20px; }
+@media (max-width: 900px) { .honor-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .honor-grid, .talent-grid { grid-template-columns: 1fr; } }
 .hero { min-height: 620px; padding-block: 68px 72px; }
 h1 { max-width: 630px; margin-top: 18px; font-size: clamp(2.55rem, 4.2vw, 4rem); font-weight: 700; line-height: 1.06; letter-spacing: -.055em; }
 .hero-summary { margin-top: 28px; font-size: 16px; }
@@ -83,3 +89,14 @@ h1 { max-width: 630px; margin-top: 18px; font-size: clamp(2.55rem, 4.2vw, 4rem);
   h1 { font-size: clamp(2.25rem, 9.5vw, 3rem); }
   .section-intro h2, .section-heading-row h2, .path-title h2, .principles h2 { font-size: clamp(1.85rem, 8vw, 2.25rem); }
 }
+.honor-group-title { margin: 48px 0 22px; color: var(--lime); font-size: 16px; }
+.honor-group-title + .honor-group-title[hidden] + .honor-grid, .honor-grid { margin-top: 22px; }
+.talent-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.site-footer .footer-email { display: inline-block; margin-top: 12px; color: var(--muted); font-size: 12px; }
+.footer-email:hover { color: var(--lime); }
+@media (max-width: 560px) { .talent-grid { grid-template-columns: 1fr; } }
+.technology-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+.technology-grid .honor-card { grid-column: span 2; }
+.technology-grid .honor-card:nth-child(n+4) { grid-column: span 3; }
+@media (max-width: 900px) { .technology-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }.technology-grid .honor-card, .technology-grid .honor-card:nth-child(n+4) { grid-column: auto; }.technology-grid .honor-card:last-child { grid-column: 1 / -1; } }
+@media (max-width: 560px) { .technology-grid { grid-template-columns: 1fr; }.technology-grid .honor-card:last-child { grid-column: auto; } }
